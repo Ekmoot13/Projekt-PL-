@@ -1,0 +1,25 @@
+Problemy z bazą danych ligi żeglarskiej 
+
+
+Problem: 
+Zintegrowanie Bazy danych w ten sposób by na profilach klubów i zawodników pojawiały się ich wyniki.
+
+Jak rozumiem to w tym momencie wyniki i zawodnicy są przypisani do regat 
+
+Wyniki poszczególnych miejsc w całym sezonie są przypisane do klubów
+
+ 
+hasło: 8X6Z(YDCzy#j5sjYFIrgHm5r
+
+serwer250844.sql120.lh.pl
+
+baza danych 
+klub
+zawodnik
+regaty - wyścigi, punkty rangingowe 
+
+jeszcze jest kilka ligi
+
+na razie są tabele w exelu
+
+numer ubezpieczenia tylko dla sternika

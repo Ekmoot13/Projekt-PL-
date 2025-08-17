@@ -1,0 +1,93 @@
+-- Parametr testowy (opcjonalny: odfiltrowanie później)
+-- SET @ROK := 2024; SET @LIGA := 'Ekstraklasa';
+
+WITH
+-- 1) Jeden wynik na wyścig i klub
+uniq AS (
+  SELECT m.Skrot, m.ID_wyscigu, MIN(m.Zajete_miejsce) AS miejsce
+  FROM liga_Miejsca m
+  GROUP BY m.Skrot, m.ID_wyscigu
+),
+
+-- 2) Pre-suma (bez finału: numer wyścigu <> 0)
+pre AS (
+  SELECT
+    w.ID_Regat,
+    u.Skrot,
+    SUM(u.miejsce) AS pre_score
+  FROM uniq u
+  JOIN liga_Wyscigi w ON w.ID_wyscigu = u.ID_wyscigu
+  WHERE CAST(w.Numer_wyscigu AS UNSIGNED) <> 0
+  GROUP BY w.ID_Regat, u.Skrot
+),
+
+-- 3) Punkty z finału (numer wyścigu = 0)
+final AS (
+  SELECT
+    w.ID_Regat,
+    u.Skrot,
+    MIN(u.miejsce) AS final_score
+  FROM uniq u
+  JOIN liga_Wyscigi w ON w.ID_wyscigu = u.ID_wyscigu
+  WHERE CAST(w.Numer_wyscigu AS UNSIGNED) = 0
+  GROUP BY w.ID_Regat, u.Skrot
+),
+
+-- 4) Ranking po pre_score + rozmiar stawki i połowa
+pre_ranked AS (
+  SELECT
+    p.*,
+    RANK()  OVER (PARTITION BY p.ID_Regat ORDER BY p.pre_score ASC, p.Skrot ASC)               AS pre_rank,
+    COUNT(*) OVER (PARTITION BY p.ID_Regat)                                                    AS nteams,
+    CEIL(COUNT(*) OVER (PARTITION BY p.ID_Regat) / 2.0)                                        AS half_cnt
+  FROM pre p
+),
+
+-- 5) Przypisanie do grup i suma w grupie
+group_totals AS (
+  SELECT
+    pr.ID_Regat,
+    pr.Skrot,
+    pr.pre_score,
+    pr.nteams,
+    pr.half_cnt,
+    CASE WHEN pr.pre_rank <= pr.half_cnt THEN 'GOLD' ELSE 'SILVER' END                         AS grp,
+    pr.pre_score + COALESCE(f.final_score, 0)                                                  AS total_in_group
+  FROM pre_ranked pr
+  LEFT JOIN final f
+    ON f.ID_Regat = pr.ID_Regat AND f.Skrot = pr.Skrot
+),
+
+-- 6) Pozycja w grupie po total_in_group
+group_places AS (
+  SELECT
+    gt.*,
+    ROW_NUMBER() OVER (PARTITION BY gt.ID_Regat, gt.grp ORDER BY gt.total_in_group ASC, gt.Skrot ASC)
+      AS rn_in_grp
+  FROM group_totals gt
+)
+
+-- 7) Końcowy ranking: GOLD -> 1..half, SILVER -> half+1..N
+SELECT
+  r.Rok,
+  r.Nazwa                     AS Nazwa_Regat,
+  r.Liga_Poziom,
+  r.Miasto,
+  r.Numer_Rundy,
+  k.Skrot,
+  k.Nazwa                     AS Nazwa_Klubu,
+  gp.pre_score                AS Suma_Przefinalem,
+  COALESCE(f.final_score, 0)  AS Wynik_Finalu,
+  gp.total_in_group           AS Suma_Po_Finalu,
+  gp.grp                      AS Final_Grupa,
+  CASE
+    WHEN gp.grp = 'GOLD'   THEN gp.rn_in_grp
+    ELSE gp.half_cnt + gp.rn_in_grp
+  END                         AS Miejsce_Koncowe
+FROM group_places gp
+JOIN liga_Regaty r ON r.ID_Regat = gp.ID_Regat
+JOIN liga_Kluby  k ON k.Skrot    = gp.Skrot
+LEFT JOIN final  f ON f.ID_Regat = gp.ID_Regat AND f.Skrot = gp.Skrot
+-- opcjonalne filtry:
+-- WHERE r.Rok = @ROK AND r.Liga_Poziom = @LIGA
+ORDER BY r.Rok DESC, r.Numer_Rundy, r.Nazwa, Miejsce_Koncowe, k.Skrot;

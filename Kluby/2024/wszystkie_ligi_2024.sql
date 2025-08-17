@@ -1,0 +1,62 @@
+-- Ekstraklasa 2024
+INSERT INTO Kluby (Skrot, Nazwa) VALUES
+('YCS', 'Yacht Club Sopot'),
+('NSO', 'Nowy Sztynort Osada Wolności GGR'),
+('YCG', 'Yacht Club Gdańsk'),
+('POG', 'Pogoń Szczecin'),
+('HRM', 'HRM Racing'),
+('YKP', 'YKP Gdynia'),
+('SPO', 'Sport Vita Ski & Sail'),
+('WAT', 'AZS WAT Warszawa'),
+('RSR', 'Rockstars Racing'),
+('YKS', 'YKP Szczecin'),
+('YKL', 'Lubelskie YKP Lublin'),
+('LEG', 'Legia Warszawa'),
+('WRO', 'FinGo Capital UKS Żeglarz Wrocław'),
+('AWF', 'AZS AWFiS Gdańsk'),
+('WOL', 'UKS Albatros Wolin'),
+('OCC', 'Ocean Challenge Sailing Club'),
+('PGR', 'AZS Politechnika Gdańska'),
+('KKZ', 'Kościański Klub Żeglarski');
+
+-- 1 Liga 2024
+INSERT INTO Kluby (Skrot, Nazwa) VALUES
+('ISK', 'KS Iskra AMW Gdynia'),
+('ONB', 'Onboard'),
+('SZT', 'Sztorm Grupa Warszawa'),
+('NIE', 'KS Marina Niesulice'),
+('GAR', 'KW Garland Gliwice'),
+('MEC', 'Port Mechelinki'),
+('BSA', 'BSA Flota Gdynia'),
+('YCB', 'Yacht Club Białołęka'),
+('SLA', 'Slava Racing'),
+('OKZ', 'Olsztyński Klub Żeglarski'),
+('JSG', 'MOWI Jachtklub Stoczni Gdańskiej'),
+('NAV', 'UKS Navigo'),
+('HAL', 'KŻ Hals Gostynin'),
+('YS2', 'Yacht Club Sopot 2'),
+('YKW', 'YKP Warszawa'),
+('PJK', 'Puchar Polski Jachtów Kabinowych'),
+('ODY', 'Odyssey Sailing Club'),
+('ETI', 'Etisoft 2KMM Sailing Team');
+
+-- Liga Regionalna 2024
+INSERT INTO Kluby (Skrot, Nazwa) VALUES
+('JKS', 'Jacht Klub Sztynort'),
+('TBD', 'The Barking Dogs'),
+('TXT', 'TEXET Sailing Team'),
+('SEN', 'SEN Yachts Olsztyn'),
+('SCO', 'Stripes & Co'),
+('MKŻ', 'Mazurski Klub Żeglarski'),
+('SOS', 'Sosnowski i przyjaciele'),
+('RST', 'RITS Sailing Team'),
+('SOL', 'KS Puchar Soliny'),
+('KSW', 'KSW Baltic Dziwnów'),
+('YZ2', 'YKP Szczecin 2'),
+('SBU', 'SBU Yacht Racing Team'),
+('ZEF', 'Zefir-Drakkar Poraj'),
+('JEP', 'Joker Pik'),
+('POW', 'SKŻ Powidz'),
+('HOR', 'KŻ Horn Kraków'),
+('FJS', 'Fujitsu Sailing Team'),
+('WEE', 'Wydział Elektryczny PW');

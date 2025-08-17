@@ -1,0 +1,21 @@
+Ile wyścigów wygrał konkretny zawodnik?
+
+Jakie miejsca w konkretnych regatach miał konkretny klub?
+
+Jacy zawodnicy należą do danego klubu?
+
+W jakich regatach uczestniczył konkretny zawodnik?
+
+Który klub wygrał konkretny wyścig w konkretnych regatach?
+
+Ilu i jakich zawodników brało udział w określonych regatach?
+
+Który zawodnik z klubu ma najlepszą średnią wyścigów w sezonie?
+
+Porównanie najlepszych sterników z różnych poziomów lig. 
+
+Jakie były średnie miejsca zajmowane przez konkretną łódkę w konkretnych regatach?
+
+Jaki żeglarz miał najlepsze wyniki na łódce z najgorszymi średnimi wynikami na konkretnych regatach?
+
+W której rundzie w konkretnym sezonie wszystkie łódki miały najrówniejsze średnie zajęte miejsca?
