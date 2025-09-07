@@ -1,0 +1,399 @@
+﻿Zawodnik,ID_klubu,rok,regaty,numer rundy,poziom_ligi
+Maciej Cylupa,YKS,2015,Szczecin,1,Ekstraklasa
+Paweł Górski,YCS,2015,Szczecin,1,Ekstraklasa
+Rafał Sawicki,YCS,2015,Szczecin,1,Ekstraklasa
+Wiktor Plitko,YKM,2015,Szczecin,1,Ekstraklasa
+Maciej Cylupa,YKS,2015,Świnoujście,2,Ekstraklasa
+Paweł Górski,YCS,2015,Świnoujście,2,Ekstraklasa
+Rafał Sawicki,YCS,2015,Świnoujście,2,Ekstraklasa
+Wiktor Plitko,YKM,2015,Świnoujście,2,Ekstraklasa
+Paweł Górski,YCS,2015,Gdańsk,3,Ekstraklasa
+Rafał Sawicki,YCS,2015,Gdańsk,3,Ekstraklasa
+Wiktor Plitko,YKM,2015,Gdańsk,3,Ekstraklasa
+Paweł Górski,YCS,2015,Sopot,4,Ekstraklasa
+Rafał Sawicki,YCS,2015,Sopot,4,Ekstraklasa
+Wiktor Plitko,YKM,2015,Sopot,4,Ekstraklasa
+Kacper Olszewski,PGR,2016,Szczecin,1,Ekstraklasa
+Maciek Garniewski,DZY,2016,Szczecin,1,Ekstraklasa
+Szymon Jabłkowski,SZT,2016,Szczecin,1,Ekstraklasa
+Wiktor Plitko,YKM,2016,Szczecin,1,Ekstraklasa
+Kacper Olszewski,PGR,2016,Świnoujście,2,Ekstraklasa
+Maciek Garniewski,DZY,2016,Świnoujście,2,Ekstraklasa
+Szymon Jabłkowski,SZT,2016,Świnoujście,2,Ekstraklasa
+Wiktor Plitko,YKM,2016,Świnoujście,2,Ekstraklasa
+Jakub Pawluk,LEG,2017,Sopot,1,Ekstraklasa
+Kacper Olszewski,PMT TŻR Szczecin,2017,Sopot,1,Ekstraklasa
+Maciek Garniewski,DZY,2017,Sopot,1,Ekstraklasa
+Paweł Górski,YCS,2017,Sopot,1,Ekstraklasa
+Rafał Sawicki,YKP,2017,Sopot,1,Ekstraklasa
+Szymon Jabłkowski,OKZ,2017,Sopot,1,Ekstraklasa
+Wiktor Plitko,YKM,2017,Sopot,1,Ekstraklasa
+Jakub Pawluk,LEG,2017,Świnoujście,2,Ekstraklasa
+Kacper Olszewski,PMT TŻR Szczecin,2017,Świnoujście,2,Ekstraklasa
+Maciek Garniewski,DZY,2017,Świnoujście,2,Ekstraklasa
+Paweł Górski,YCS,2017,Świnoujście,2,Ekstraklasa
+Szymon Jabłkowski,OKZ,2017,Świnoujście,2,Ekstraklasa
+Wiktor Plitko,YKM,2017,Świnoujście,2,Ekstraklasa
+Jakub Pawluk,LEG,2017,Gdynia,3,Ekstraklasa
+Kacper Olszewski,PMT TŻR Szczecin,2017,Gdynia,3,Ekstraklasa
+Maciek Garniewski,DZY,2017,Gdynia,3,Ekstraklasa
+Paweł Górski,YCS,2017,Gdynia,3,Ekstraklasa
+Rafał Sawicki,YKP,2017,Gdynia,3,Ekstraklasa
+Szymon Jabłkowski,OKZ,2017,Gdynia,3,Ekstraklasa
+Wiktor Plitko,YKM,2017,Gdynia,3,Ekstraklasa
+Jakub Pawluk,LEG,2017,Szczecin,4,Ekstraklasa
+Kacper Olszewski,PMT TŻR Szczecin,2017,Szczecin,4,Ekstraklasa
+Maciek Garniewski,DZY,2017,Szczecin,4,Ekstraklasa
+Paweł Górski,YCS,2017,Szczecin,4,Ekstraklasa
+Rafał Sawicki,YKP,2017,Szczecin,4,Ekstraklasa
+Szymon Jabłkowski,OKZ,2017,Szczecin,4,Ekstraklasa
+Wiktor Plitko,YKM,2017,Szczecin,4,Ekstraklasa
+Bartosz Sadowski,OKZ,2018,Gdynia,1,Ekstraklasa
+Jakub Pawluk,LEG,2018,Gdynia,1,Ekstraklasa
+Maciek Garniewski,DZY,2018,Gdynia,1,Ekstraklasa
+Paweł Górski,YCS,2018,Gdynia,1,Ekstraklasa
+Wiktor Plitko,OKZ,2018,Gdynia,1,Ekstraklasa
+Jakub Pawluk,LEG,2018,Szczecin,2,Ekstraklasa
+Maciek Garniewski,DZY,2018,Szczecin,2,Ekstraklasa
+Paweł Górski,YCS,2018,Szczecin,2,Ekstraklasa
+Szymon Jabłkowski,OKZ,2018,Szczecin,2,Ekstraklasa
+Wiktor Plitko,OKZ,2018,Szczecin,2,Ekstraklasa
+Aleksander Michalski,JKM Gryf,2018,Świnoujście,3,Ekstraklasa
+Jakub Pawluk,LEG,2018,Świnoujście,3,Ekstraklasa
+Maciek Garniewski,DZY,2018,Świnoujście,3,Ekstraklasa
+Paweł Górski,YCS,2018,Świnoujście,3,Ekstraklasa
+Szymon Jabłkowski,OKZ,2018,Świnoujście,3,Ekstraklasa
+Wiktor Plitko,OKZ,2018,Świnoujście,3,Ekstraklasa
+Jakub Pawluk,LEG,2018,Sopot,4,Ekstraklasa
+Maciek Garniewski,DZY,2018,Sopot,4,Ekstraklasa
+Paweł Górski,YCS,2018,Sopot,4,Ekstraklasa
+Przemek Chlebowski,YCS,2018,Sopot,4,Ekstraklasa
+Rafał Sawicki,YKP,2018,Sopot,4,Ekstraklasa
+Szymon Jabłkowski,OKZ,2018,Sopot,4,Ekstraklasa
+Wiktor Plitko,OKZ,2018,Sopot,4,Ekstraklasa
+Aleksander Michalski,OKZ,2019,Sopot (EX i 1L),1,Ekstraklasa
+Bartosz Sadowski,YCG,2019,Sopot (EX i 1L),1,1 Liga
+Jakub Pawluk,LEG,2019,Sopot (EX i 1L),1,Ekstraklasa
+Kacper Olszewski,YCG,2019,Sopot (EX i 1L),1,1 Liga
+Maciek Garniewski,DZY,2019,Sopot (EX i 1L),1,Ekstraklasa
+Marcin Banaszek,LEG,2019,Sopot (EX i 1L),1,Ekstraklasa
+Paweł Górski,YCS,2019,Sopot (EX i 1L),1,Ekstraklasa
+Przemek Chlebowski,YCS,2019,Sopot (EX i 1L),1,Ekstraklasa
+Rafał Sawicki,YKP,2019,Sopot (EX i 1L),1,Ekstraklasa
+Wiktor Plitko,OKZ,2019,Sopot (EX i 1L),1,Ekstraklasa
+Aleksander Michalski,OKZ,2019,Gdynia (EX) / Sopot (1L),2,Ekstraklasa
+Bartosz Sadowski,YCG,2019,Gdynia (EX) / Sopot (1L),2,1 Liga
+Jakub Pawluk,LEG,2019,Gdynia (EX) / Sopot (1L),2,Ekstraklasa
+Kacper Olszewski,YCG,2019,Gdynia (EX) / Sopot (1L),2,1 Liga
+Maciek Garniewski,DZY,2019,Gdynia (EX) / Sopot (1L),2,Ekstraklasa
+Marcin Banaszek,LEG,2019,Gdynia (EX) / Sopot (1L),2,Ekstraklasa
+Paweł Górski,YCS,2019,Gdynia (EX) / Sopot (1L),2,Ekstraklasa
+Przemek Chlebowski,YCS,2019,Gdynia (EX) / Sopot (1L),2,Ekstraklasa
+Rafał Sawicki,YKP,2019,Gdynia (EX) / Sopot (1L),2,1 Liga
+Wiktor Plitko,OKZ,2019,Gdynia (EX) / Sopot (1L),2,Ekstraklasa
+Aleksander Michalski,OKZ,2019,Świnoujście (EX) / Szczecin (1L),3,Ekstraklasa
+Bartosz Sadowski,YCG,2019,Świnoujście (EX) / Szczecin (1L),3,1 Liga
+Jakub Pawluk,LEG,2019,Świnoujście (EX) / Szczecin (1L),3,Ekstraklasa
+Maciek Garniewski,DZY,2019,Świnoujście (EX) / Szczecin (1L),3,Ekstraklasa
+Marcin Banaszek,LEG,2019,Świnoujście (EX) / Szczecin (1L),3,Ekstraklasa
+Paweł Górski,YCS,2019,Świnoujście (EX) / Szczecin (1L),3,Ekstraklasa
+Przemek Chlebowski,YCS,2019,Świnoujście (EX) / Szczecin (1L),3,Ekstraklasa
+Rafał Sawicki,YKP,2019,Świnoujście (EX) / Szczecin (1L),3,1 Liga
+Szymon Jabłkowski,DZY,2019,Świnoujście (EX) / Szczecin (1L),3,Ekstraklasa
+Wiktor Plitko,OKZ,2019,Świnoujście (EX) / Szczecin (1L),3,Ekstraklasa
+Aleksander Michalski,OKZ,2019,Szczecin (EX i 1L),4,Ekstraklasa
+Bartosz Sadowski,YCG,2019,Szczecin (EX i 1L),4,1 Liga
+Jakub Pawluk,LEG,2019,Szczecin (EX i 1L),4,Ekstraklasa
+Maciek Garniewski,DZY,2019,Szczecin (EX i 1L),4,Ekstraklasa
+Marcin Banaszek,LEG,2019,Szczecin (EX i 1L),4,Ekstraklasa
+Paweł Górski,YCS,2019,Szczecin (EX i 1L),4,Ekstraklasa
+Paweł Nawrocki,JKM,2019,Szczecin (EX i 1L),4,Ekstraklasa
+Przemek Chlebowski,YCS,2019,Szczecin (EX i 1L),4,Ekstraklasa
+Rafał Sawicki,YKP,2019,Szczecin (EX i 1L),4,1 Liga
+Wiktor Plitko,OKZ,2019,Szczecin (EX i 1L),4,Ekstraklasa
+Aleksander Michalski,OKZ,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Jakub Pawluk,LEG,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Krzysztof Małecki,YCG,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Maciek Garniewski,DZY,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Marcin Banaszek,LEG,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2020,Szczecin (EX) / Sopot (1L),1,1 Liga
+Paweł Górski,YCS,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Przemek Chlebowski,YCS,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Rafał Sawicki,YKP,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Wiktor Plitko,OKZ,2020,Szczecin (EX) / Sopot (1L),1,Ekstraklasa
+Aleksander Michalski,OKZ,2020,Sopot (EX i 1L),2,Ekstraklasa
+Jakub Pawluk,LEG,2020,Sopot (EX i 1L),2,Ekstraklasa
+Kajetan Januszewski,PGR,2020,Sopot (EX i 1L),2,1 Liga
+Krzysztof Małecki,YCG,2020,Sopot (EX i 1L),2,Ekstraklasa
+Maciek Garniewski,DZY,2020,Sopot (EX i 1L),2,Ekstraklasa
+Marcin Banaszek,LEG,2020,Sopot (EX i 1L),2,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2020,Sopot (EX i 1L),2,1 Liga
+Paweł Górski,YCS,2020,Sopot (EX i 1L),2,Ekstraklasa
+Przemek Chlebowski,YCS,2020,Sopot (EX i 1L),2,Ekstraklasa
+Rafał Sawicki,YKP,2020,Sopot (EX i 1L),2,Ekstraklasa
+Wiktor Plitko,OKZ,2020,Sopot (EX i 1L),2,Ekstraklasa
+Jacek Puchniarz,YCS,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Jakub Pawluk,LEG,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Krzysztof Małecki,YCG,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Maciek Garniewski,DZY,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Marcin Banaszek,LEG,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2020,Sopot (EX) / Szczecin (1L),3,1 Liga
+Paweł Górski,YCS,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Przemek Chlebowski,YCS,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Rafał Sawicki,YKP,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Wiktor Plitko,OKZ,2020,Sopot (EX) / Szczecin (1L),3,Ekstraklasa
+Bartosz Sadowski,PGR,2020,Świnoujście (EX) / Szczecin (1L),4,1 Liga
+Jacek Puchniarz,YCS,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Jakub Pawluk,LEG,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Krzysztof Małecki,YCG,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Maciek Garniewski,DZY,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Marcin Banaszek,LEG,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2020,Świnoujście (EX) / Szczecin (1L),4,1 Liga
+Paweł Górski,YCS,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Paweł Leksycki,PGR,2020,Świnoujście (EX) / Szczecin (1L),4,1 Liga
+Przemek Chlebowski,YCS,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Rafał Sawicki,YKP,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Szymon Jabłkowski,77R,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Wiktor Plitko,OKZ,2020,Świnoujście (EX) / Szczecin (1L),4,Ekstraklasa
+Bartosz Sadowski,GRP,2021,Sopot,1,1 Liga
+Jacek Puchniarz,YCS,2021,Sopot,1,Ekstraklasa
+Jakub Pawluk,LEG,2021,Sopot,1,Ekstraklasa
+Kacper Olszewski,HRM,2021,Sopot,1,1 Liga
+Krzysztof Małecki,GIZ,2021,Sopot,1,Ekstraklasa
+Marcin Banaszek,LEG,2021,Sopot,1,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2021,Sopot,1,Ekstraklasa
+Mateusz Wiśniewski,AWF,2021,Sopot,1,1 Liga
+Paweł Górski,YCS,2021,Sopot,1,Ekstraklasa
+Paweł Leksycki,PGR,2021,Sopot,1,Ekstraklasa
+Przemek Chlebowski,YCS,2021,Sopot,1,Ekstraklasa
+Przemysław Witkowski,KKZ,2021,Sopot,1,1 Liga
+Rafał Sawicki,YKP,2021,Sopot,1,Ekstraklasa
+Wiktor Plitko,OKZ,2021,Sopot,1,Ekstraklasa
+Bartosz Sadowski,GRP,2021,Gdynia,2,1 Liga
+Jacek Puchniarz,YCS,2021,Gdynia,2,Ekstraklasa
+Jakub Pawluk,LEG,2021,Gdynia,2,Ekstraklasa
+Kacper Olszewski,HRM,2021,Gdynia,2,1 Liga
+Krzysztof Małecki,GIZ,2021,Gdynia,2,Ekstraklasa
+Marcin Banaszek,LEG,2021,Gdynia,2,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2021,Gdynia,2,Ekstraklasa
+Mateusz Wiśniewski,AWF,2021,Gdynia,2,1 Liga
+Paweł Górski,YCS,2021,Gdynia,2,Ekstraklasa
+Paweł Leksycki,PGR,2021,Gdynia,2,Ekstraklasa
+Przemek Chlebowski,YCS,2021,Gdynia,2,Ekstraklasa
+Przemysław Witkowski,KKZ,2021,Gdynia,2,1 Liga
+Rafał Sawicki,YKP,2021,Gdynia,2,Ekstraklasa
+Wiktor Plitko,OKZ,2021,Gdynia,2,Ekstraklasa
+Bartosz Sadowski,GRP,2021,Szczecin,3,1 Liga
+Jacek Puchniarz,YCS,2021,Szczecin,3,Ekstraklasa
+Jakub Pawluk,LEG,2021,Szczecin,3,Ekstraklasa
+Kacper Olszewski,HRM,2021,Szczecin,3,1 Liga
+Krzysztof Małecki,GIZ,2021,Szczecin,3,Ekstraklasa
+Marcin Banaszek,LEG,2021,Szczecin,3,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2021,Szczecin,3,Ekstraklasa
+Mateusz Wiśniewski,AWF,2021,Szczecin,3,1 Liga
+Paweł Górski,YCS,2021,Szczecin,3,Ekstraklasa
+Paweł Leksycki,PGR,2021,Szczecin,3,Ekstraklasa
+Przemek Chlebowski,YCS,2021,Szczecin,3,Ekstraklasa
+Przemysław Witkowski,KKZ,2021,Szczecin,3,Ekstraklasa
+Rafał Sawicki,YKP,2021,Szczecin,3,Ekstraklasa
+Wiktor Plitko,OKZ,2021,Szczecin,3,Ekstraklasa
+Bartosz Sadowski,GRP,2021,Warszawa,4,1 Liga
+Jacek Puchniarz,YCS,2021,Warszawa,4,Ekstraklasa
+Jakub Pawluk,LEG,2021,Warszawa,4,Ekstraklasa
+Krzysztof Małecki,GIZ,2021,Warszawa,4,Ekstraklasa
+Marcin Banaszek,LEG,2021,Warszawa,4,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2021,Warszawa,4,Ekstraklasa
+Mateusz Wiśniewski,AWF,2021,Warszawa,4,1 Liga
+Paweł Górski,YCS,2021,Warszawa,4,Ekstraklasa
+Paweł Leksycki,PGR,2021,Warszawa,4,Ekstraklasa
+Przemek Chlebowski,YCS,2021,Warszawa,4,Ekstraklasa
+Przemysław Witkowski,KKZ,2021,Warszawa,4,Ekstraklasa
+Rafał Sawicki,YKP,2021,Warszawa,4,Ekstraklasa
+Wiktor Plitko,OKZ,2021,Warszawa,4,Ekstraklasa
+Aleksander Michalski,RSR,2022,Sopot,1,1 Liga
+Bartosz Sadowski,GRP,2022,Sopot,1,1 Liga
+Jacek Puchniarz,POL,2022,Sopot,1,1 Liga
+Jakub Pawluk,LEG,2022,Sopot,1,Ekstraklasa
+Kacper Olszewski,YCG,2022,Sopot,1,Ekstraklasa
+Karolina Żurek,PGR,2022,Sopot,1,Ekstraklasa
+Krzysztof Małecki,GGR,2022,Sopot,1,Ekstraklasa
+Maciek Garniewski,DZY,2022,Sopot,1,Ekstraklasa
+Magdalena Kwaśna,YKL,2022,Sopot,1,1 Liga
+Maksymilian Burdziej,PGR,2022,Sopot,1,Ekstraklasa
+Marcin Banaszek,LEG,2022,Sopot,1,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2022,Sopot,1,Ekstraklasa
+Mateusz Wiśniewski,AWF,2022,Sopot,1,Ekstraklasa
+Patryk Wojtkiewicz,GGR,2022,Sopot,1,Ekstraklasa
+Paweł Górski,YCS,2022,Sopot,1,Ekstraklasa
+Paweł Leksycki,RSR,2022,Sopot,1,1 Liga
+Paweł Nawrocki,YCB,2022,Sopot,1,Ekstraklasa
+Przemek Chlebowski,YCS,2022,Sopot,1,Ekstraklasa
+Przemysław Witkowski,KKZ,2022,Sopot,1,1 Liga
+Rafał Sawicki,BLX,2022,Sopot,1,Ekstraklasa
+Wiktor Plitko,OKZ,2022,Sopot,1,Ekstraklasa
+Aleksander Michalski,RSR,2022,Gdynia,2,1 Liga
+Bartosz Sadowski,GRP,2022,Gdynia,2,1 Liga
+Jacek Puchniarz,POL,2022,Gdynia,2,1 Liga
+Jakub Pawluk,LEG,2022,Gdynia,2,Ekstraklasa
+Kacper Olszewski,YCG,2022,Gdynia,2,Ekstraklasa
+Karolina Żurek,PGR,2022,Gdynia,2,Ekstraklasa
+Krzysztof Małecki,GGR,2022,Gdynia,2,Ekstraklasa
+Maciek Garniewski,DZY,2022,Gdynia,2,Ekstraklasa
+Marcin Banaszek,LEG,2022,Gdynia,2,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2022,Gdynia,2,Ekstraklasa
+Mateusz Wiśniewski,AWF,2022,Gdynia,2,Ekstraklasa
+Patryk Kosmalski,PGR,2022,Gdynia,2,Ekstraklasa
+Patryk Wojtkiewicz,GGR,2022,Gdynia,2,Ekstraklasa
+Paweł Górski,YCS,2022,Gdynia,2,Ekstraklasa
+Paweł Leksycki,RSR,2022,Gdynia,2,1 Liga
+Paweł Nawrocki,YCB,2022,Gdynia,2,Ekstraklasa
+Przemek Chlebowski,YCS,2022,Gdynia,2,Ekstraklasa
+Przemysław Witkowski,KKZ,2022,Gdynia,2,1 Liga
+Rafał Sawicki,BLX,2022,Gdynia,2,Ekstraklasa
+Szymon Jabłkowski,OCC,2022,Gdynia,2,1 Liga
+Tomasz Lewandowski,PGR,2022,Gdynia,2,Ekstraklasa
+Wiktor Plitko,OKZ,2022,Gdynia,2,Ekstraklasa
+Aleksander Michalski,RSR,2022,Trzebież,3,1 Liga
+Jacek Puchniarz,POL,2022,Trzebież,3,1 Liga
+Jakub Kupś,GRP,2022,Trzebież,3,1 Liga
+Jakub Pawluk,LEG,2022,Trzebież,3,Ekstraklasa
+Kacper Olszewski,YCG,2022,Trzebież,3,Ekstraklasa
+Karolina Żurek,PGR,2022,Trzebież,3,Ekstraklasa
+Krzysztof Małecki,GGR,2022,Trzebież,3,Ekstraklasa
+Maciek Garniewski,DZY,2022,Trzebież,3,Ekstraklasa
+Magdalena Kwaśna,YKL,2022,Trzebież,3,Eks1 Ligatraklasa
+Marcin Banaszek,LEG,2022,Trzebież,3,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2022,Trzebież,3,Ekstraklasa
+Mateusz Wiśniewski,AWF,2022,Trzebież,3,Ekstraklasa
+Patryk Kosmalski,PGR,2022,Trzebież,3,Ekstraklasa
+Patryk Wojtkiewicz,GGR,2022,Trzebież,3,Ekstraklasa
+Paweł Górski,YCS,2022,Trzebież,3,Ekstraklasa
+Paweł Leksycki,RSR,2022,Trzebież,3,1 Liga
+Paweł Nawrocki,YCB,2022,Trzebież,3,Ekstraklasa
+Przemek Chlebowski,YCS,2022,Trzebież,3,Ekstraklasa
+Przemysław Witkowski,KKZ,2022,Trzebież,3,1 Liga
+Rafał Sawicki,BLX,2022,Trzebież,3,Ekstraklasa
+Szymon Jabłkowski,OCC,2022,Trzebież,3,1 Liga
+Tomasz Lewandowski,PGR,2022,Trzebież,3,Ekstraklasa
+Wiktor Plitko,OKZ,2022,Trzebież,3,Ekstraklasa
+Aleksander Michalski,RSR,2022,Warszawa,4,1 Liga
+Jacek Puchniarz,POL,2022,Warszawa,4,1 Liga
+Jakub Pawluk,LEG,2022,Warszawa,4,Ekstraklasa
+Kacper Olszewski,YCG,2022,Warszawa,4,Ekstraklasa
+Krzysztof Małecki,GGR,2022,Warszawa,4,Ekstraklasa
+Maciek Garniewski,DZY,2022,Warszawa,4,Ekstraklasa
+Magdalena Kwaśna,YKL,2022,Warszawa,4,1 Liga
+Marcin Banaszek,LEG,2022,Warszawa,4,Ekstraklasa
+Mateusz Wiśniewski,AWF,2022,Warszawa,4,Ekstraklasa
+Paweł Górski,YCS,2022,Warszawa,4,Ekstraklasa
+Paweł Kuszewski,DZY,2022,Warszawa,4,Ekstraklasa
+Paweł Leksycki,RSR,2022,Warszawa,4,1 Liga
+Paweł Nawrocki,YCB,2022,Warszawa,4,Ekstraklasa
+Przemek Chlebowski,YCS,2022,Warszawa,4,Ekstraklasa
+Przemysław Witkowski,KKZ,2022,Warszawa,4,1 Liga
+Rafał Sawicki,BLX,2022,Warszawa,4,Ekstraklasa
+Szymon Jabłkowski,OCC,2022,Warszawa,4,1 Liga
+Wiktor Plitko,OKZ,2022,Warszawa,4,Ekstraklasa
+Aleksander Michalski,RSR,2023,Sopot,1,Ekstraklasa
+Bartosz Sadowski,ODY,2023,Sopot,1,1 Liga
+Jacek Puchniarz,POL,2023,Sopot,1,Ekstraklasa
+Jakub Pawluk,LEG,2023,Sopot,1,Ekstraklasa
+Jeremi Dąbrowski,WOL,2023,Sopot,1,1 Liga
+Kacper Olszewski,YCG,2023,Sopot,1,Ekstraklasa
+Karolina Żurek,RSR,2023,Sopot,1,Ekstraklasa
+Krzysztof Małecki,NSO,2023,Sopot,1,Ekstraklasa
+Magdalena Kwaśna,YKL,2023,Sopot,1,Ekstraklasa
+Maksymilian Burdziej,PGR,2023,Sopot,1,Ekstraklasa
+Marcin Banaszek,LEG,2023,Sopot,1,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2023,Sopot,1,1 Liga
+Mateusz Wiśniewski,AWF,2023,Sopot,1,Ekstraklasa
+Max Pawłowski,YCG,2023,Sopot,1,Ekstraklasa
+Patryk Kosmalski,PGR,2023,Sopot,1,Ekstraklasa
+Patryk Wojtkiewicz,NSO,2023,Sopot,1,Ekstraklasa
+Paweł Górski,YCS,2023,Sopot,1,Ekstraklasa
+Paweł Leksycki,RSR,2023,Sopot,1,Ekstraklasa
+Paweł Nawrocki,YCB,2023,Sopot,1,1 Liga
+Przemek Chlebowski,YCS,2023,Sopot,1,Ekstraklasa
+Przemysław Witkowski,KKZ,2023,Sopot,1,1 Liga
+Rafał Sawicki,YKP,2023,Sopot,1,Ekstraklasa
+Szymon Jabłkowski,ONB,2023,Sopot,1,Ekstraklasa
+Tomasz Lewandowski,PGR,2023,Sopot,1,Ekstraklasa
+Weronika Jaroszek,WOL,2023,Sopot,1,Ekstraklasa
+Wiktor Plitko,NSO,2023,Sopot,1,Ekstraklasa
+Aleksander Michalski,RSR,2023,Gdynia,2,Ekstraklasa
+Bartosz Sadowski,ODY,2023,Gdynia,2,1 Liga
+Jacek Puchniarz,POL,2023,Gdynia,2,Ekstraklasa
+Jakub Pawluk,LEG,2023,Gdynia,2,Ekstraklasa
+Jeremi Dąbrowski,WOL,2023,Gdynia,2,1 Liga
+Kacper Olszewski,YCG,2023,Gdynia,2,Ekstraklasa
+Karolina Żurek,RSR,2023,Gdynia,2,Ekstraklasa
+Krzysztof Małecki,NSO,2023,Gdynia,2,Ekstraklasa
+Magdalena Kwaśna,YKL,2023,Gdynia,2,Ekstraklasa
+Maksymilian Burdziej,PGR,2023,Gdynia,2,Ekstraklasa
+Marcin Banaszek,LEG,2023,Gdynia,2,Ekstraklasa
+Mateusz Gwóźdź,PGR,2023,Gdynia,2,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2023,Gdynia,2,1 Liga
+Mateusz Wiśniewski,AWF,2023,Gdynia,2,Ekstraklasa
+Max Pawłowski,YCG,2023,Gdynia,2,Ekstraklasa
+Patryk Kosmalski,PGR,2023,Gdynia,2,Ekstraklasa
+Patryk Wojtkiewicz,NSO,2023,Gdynia,2,Ekstraklasa
+Paweł Górski,YCS,2023,Gdynia,2,Ekstraklasa
+Paweł Leksycki,RSR,2023,Gdynia,2,Ekstraklasa
+Paweł Nawrocki,YCB,2023,Gdynia,2,1 Liga
+Przemek Chlebowski,YCS,2023,Gdynia,2,Ekstraklasa
+Przemysław Witkowski,KKZ,2023,Gdynia,2,1 Liga
+Rafał Sawicki,YKP,2023,Gdynia,2,Ekstraklasa
+Stanisław Konarzewski,GAR,2023,Gdynia,2,1 Liga
+Szymon Jabłkowski,ONB,2023,Gdynia,2,2 Liga
+Tomasz Lewandowski,PGR,2023,Gdynia,2,Ekstraklasa
+Weronika Jaroszek,WOL,2023,Gdynia,2,1 Liga
+Wiktor Plitko,NSO,2023,Gdynia,2,Ekstraklasa
+Aleksander Michalski,RSR,2023,Olsztyn,3,Ekstraklasa
+Bartosz Sadowski,ODY,2023,Olsztyn,3,1 Liga
+Jacek Puchniarz,POL,2023,Olsztyn,3,Ekstraklasa
+Jakub Pawluk,LEG,2023,Olsztyn,3,Ekstraklasa
+Jeremi Dąbrowski,WOL,2023,Olsztyn,3,1 Liga
+Kacper Olszewski,YCG,2023,Olsztyn,3,Ekstraklasa
+Karolina Żurek,RSR,2023,Olsztyn,3,Ekstraklasa
+Krzysztof Małecki,NSO,2023,Olsztyn,3,Ekstraklasa
+Magdalena Kwaśna,YKL,2023,Olsztyn,3,Ekstraklasa
+Maksymilian Burdziej,PGR,2023,Olsztyn,3,Ekstraklasa
+Marcin Banaszek,LEG,2023,Olsztyn,3,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2023,Olsztyn,3,1 Liga
+Mateusz Wiśniewski,AWF,2023,Olsztyn,3,Ekstraklasa
+Max Pawłowski,YCG,2023,Olsztyn,3,Ekstraklasa
+Patryk Kosmalski,PGR,2023,Olsztyn,3,Ekstraklasa
+Patryk Wojtkiewicz,NSO,2023,Olsztyn,3,Ekstraklasa
+Paweł Górski,YCS,2023,Olsztyn,3,Ekstraklasa
+Paweł Leksycki,RSR,2023,Olsztyn,3,Ekstraklasa
+Przemek Chlebowski,YCS,2023,Olsztyn,3,Ekstraklasa
+Przemysław Witkowski,KKZ,2023,Olsztyn,3,1 Liga
+Rafał Sawicki,YKP,2023,Olsztyn,3,Ekstraklasa
+Szymon Jabłkowski,ONB,2023,Olsztyn,3,2 Liga
+Tomasz Lewandowski,PGR,2023,Olsztyn,3,Ekstraklasa
+Weronika Jaroszek,WOL,2023,Olsztyn,3,1 Liga
+Wiktor Plitko,NSO,2023,Olsztyn,3,Ekstraklasa
+Aleksander Michalski,RSR,2023,Sztynort,4,Ekstraklasa
+Bartosz Sadowski,ODY,2023,Sztynort,4,1 Liga
+Jacek Puchniarz,POL,2023,Sztynort,4,Ekstraklasa
+Jakub Pawluk,LEG,2023,Sztynort,4,Ekstraklasa
+Jeremi Dąbrowski,WOL,2023,Sztynort,4,1 Liga
+Kacper Olszewski,YCG,2023,Sztynort,4,Ekstraklasa
+Karolina Żurek,RSR,2023,Sztynort,4,Ekstraklasa
+Krzysztof Małecki,NSO,2023,Sztynort,4,Ekstraklasa
+Magdalena Kwaśna,YKL,2023,Sztynort,4,Ekstraklasa
+Maksymilian Burdziej,PGR,2023,Sztynort,4,Ekstraklasa
+Marcin Banaszek,LEG,2023,Sztynort,4,Ekstraklasa
+Mateusz Kaczmarowski,SPO,2023,Sztynort,4,1 Liga
+Mateusz Wiśniewski,AWF,2023,Sztynort,4,Ekstraklasa
+Max Pawłowski,YCG,2023,Sztynort,4,Ekstraklasa
+Patryk Wojtkiewicz,NSO,2023,Sztynort,4,Ekstraklasa
+Paweł Górski,YCS,2023,Sztynort,4,Ekstraklasa
+Paweł Leksycki,RSR,2023,Sztynort,4,Ekstraklasa
+Paweł Nawrocki,YCB,2023,Sztynort,4,1 Liga
+Przemek Chlebowski,YCS,2023,Sztynort,4,Ekstraklasa
+Przemysław Witkowski,KKZ,2023,Sztynort,4,1 Liga
+Rafał Sawicki,YKP,2023,Sztynort,4,Ekstraklasa
+Szymon Jabłkowski,ONB,2023,Sztynort,4,2 Liga
+Weronika Jaroszek,WOL,2023,Sztynort,4,1 Liga
+Wiktor Plitko,NSO,2023,Sztynort,4,Ekstraklasa

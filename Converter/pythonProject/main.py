@@ -1,3 +1,4 @@
+
 import pandas as pd
 import hashlib
 import os
@@ -69,6 +70,17 @@ def ustal_parametry_z_csv(df: pd.DataFrame):
                     pass
     max_miejsce = int(np.nanmax(miejsca_num)) if miejsca_num else 0
     return race_cols, has_final, max_miejsce
+
+def znajdz_kolumne_m_sce(df: pd.DataFrame) -> str:
+    # priorytet dokładnie "M-sce"
+    if "M-sce" in df.columns:
+        return "M-sce"
+    # elastyczne dopasowanie (np. "M - sce", "Miejsce", "Miejsce w regatach")
+    pattern = re.compile(r'(?i)^\s*m\s*[-\.]?\s*ś?\s*ce\s*$|^\s*miejsce( w regatach)?\s*$', re.IGNORECASE)
+    for col in df.columns:
+        if pattern.match(str(col)):
+            return col
+    raise ValueError("Nie znaleziono kolumny z miejscem w regatach (szukam 'M-sce' lub podobnych).")
 
 # --- Główna pętla przetwarzania ---
 base_dir = "./mnt/data/Regaty"
@@ -160,7 +172,7 @@ for year_folder in os.listdir(base_dir):
                     if club_col is None:
                         raise ValueError("Brak kolumny 'Skrót' lub 'Zespół' w pliku.")
 
-                    # --- Miejsca ---
+                    # --- Miejsca (per wyścig) ---
                     miejsca = []
                     for _, row in df.iterrows():
                         skrot_klubu = str(row[club_col]).strip()
@@ -213,10 +225,45 @@ for year_folder in os.listdir(base_dir):
                                 "Numer_lodki": 0
                             })
 
+                    # --- Wynik regat (manual table) ---
+                    # miejsceWRegatach z kolumny "M-sce", klub z kolumny "Skrót"/"Zespół"
+                    wynik_rows = []
+                    try:
+                        m_col = znajdz_kolumne_m_sce(df)
+                    except Exception as e:
+                        # jeśli nie znajdę kolumny M-sce, pominę generowanie wyników dla tego pliku
+                        m_col = None
+                        print(f"⚠ Brak kolumny z miejscem w regatach (M-sce) w pliku: {file}. Pomijam wynikRegat.")
+
+                    if m_col is not None:
+                        for _, row in df.iterrows():
+                            skrot_klubu = str(row[club_col]).strip()
+                            raw_m = row[m_col]
+                            # znajdź pierwszą liczbę w polu
+                            if pd.isna(raw_m):
+                                continue
+                            m = re.search(r'\d+', str(raw_m))
+                            if not m:
+                                continue
+                            miejsce_w_reg = int(m.group())
+
+                            wynik_id = generate_numeric_id(
+                                "wynikRegat", liga_poziom, rok=rok_regat, runda=numer_rundy, klub=skrot_klubu
+                            )
+
+                            wynik_rows.append({
+                                "ID": wynik_id,                 # 8-cyfrowe ID (możesz zignorować przy imporcie AUTO_INCREMENT)
+                                "regaty": id_regat,              # FK -> liga_Regaty.ID_Regat
+                                "klub": skrot_klubu,             # FK -> liga_Kluby.Skrot
+                                "miejsceWRegatach": miejsce_w_reg
+                            })
+
                     # Zapis
                     pd.DataFrame(miejsca).to_csv(f"{output_prefix}_miejsca.csv", index=False)
                     pd.DataFrame(wyscigi).to_csv(f"{output_prefix}_wyscigi.csv", index=False)
                     regaty.to_csv(f"{output_prefix}_regaty.csv", index=False)
+                    if wynik_rows:
+                        pd.DataFrame(wynik_rows).to_csv(f"{output_prefix}_wynikRegat.csv", index=False)
 
                     print(f"✅ Przetworzono: {file}")
 
