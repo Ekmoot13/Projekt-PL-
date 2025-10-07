@@ -32,10 +32,11 @@ CREATE TABLE liga_Wyscigi (
 );
 
 CREATE TABLE liga_Wystepowanie_w_regatach (
-    ID_wystepowania INT AUTO_INCREMENT PRIMARY KEY,
+    ID_wystepowania INT PRIMARY KEY,
     ID_Zawodnika INT,
     ID_Regat INT,
     Skrot VARCHAR(10),
+    WynikWRegatach INT,
     Trening VARCHAR(20),
     FOREIGN KEY (ID_Zawodnika) REFERENCES liga_Zawodnik(ID_Zawodnika) ON DELETE CASCADE,
     FOREIGN KEY (ID_Regat) REFERENCES liga_Regaty(ID_Regat) ON DELETE CASCADE,

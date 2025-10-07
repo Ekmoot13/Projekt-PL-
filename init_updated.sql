@@ -44,6 +44,7 @@ CREATE TABLE IF NOT EXISTS liga_Wystepowanie_w_regatach (
     ID_Zawodnika INT,
     ID_Regat INT,
     Skrot VARCHAR(10),
+    WynikWRegatach INT,
     Trening VARCHAR(20),
     FOREIGN KEY (ID_Zawodnika) REFERENCES liga_Zawodnik(ID_Zawodnika) ON DELETE CASCADE,
     FOREIGN KEY (ID_Regat) REFERENCES liga_Regaty(ID_Regat) ON DELETE CASCADE,
