@@ -6,7 +6,7 @@ import pandas as pd
 from pathlib import Path
 
 BASE_DIRS = ["./mnt/data/zawodnicy", "./mnt/data"]  # skanuj oba miejsca
-OUT_DIR = "./mnt/data/output/roster"
+OUT_DIR = "mnt/data/output/roster"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # --------- helpers ---------

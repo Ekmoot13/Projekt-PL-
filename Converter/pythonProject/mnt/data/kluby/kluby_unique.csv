@@ -4,7 +4,7 @@ Skrot,Nazwa,Wystapienia
 AK2,Akademia Żeglarstwa w Środzie Wielkopolskiej 2,1
 AKA,Akademia Żeglarstwa w Środzie Wielkopolskiej,8
 APO,Klub Żeglarski Auto Podlasie,1
-AWF,AZS AWFiS Gdańsk,20
+AWF,AZS AWFiS Gdańsk,24
 AWK,AWF Katowice,4
 AZS,AZS Poznań,2
 AZS Uniwersytet Warszawski,,1
@@ -12,28 +12,27 @@ Auto Podlasie,,1
 BLX,Balex YKP Gdynia,4
 BOL,Sailing Team Boleslawiec,4
 BSA,BSA Flota Gdynia,8
-DZY,PŻKS Dżygit Białystok,24
+DZY,PZKS Dżygit Białystok,28
 DZYGIT,PZKS DZYGIT,4
-DŻY,PZKS Dżygit Białystok,4
 ETI,Etisoft 2KMM Sailing Team,17
 Energa GGR,,1
-FLO,Jacht Klub Wielkopolski Flota Online,1
-GAR,KW Garland Gliwice,20
+FLO,Jacht Klub Wielkopolski Flota Online,5
+GAR,KW Garland Gliwice,24
 GGR,Giżycka Grupa Regatowa Nowy Sztynort Osada Wolności,4
-GIZ,Giżycka Grupa Regatowa,4
-GIŻ,Giżycka Grupa Regatowa,8
+GIZ,Giżycka Grupa Regatowa,8
+GIŻ,Giżycka Grupa Regatowa,4
 GKZ,Procad GKŻ Gdańsk,4
 GOR,KS Górnik Boguszowice,4
 GR2,Grupa Regatowa Powidz 2,1
 GRP,Grupa Regatowa Powidz,12
 GRY,Jacht klub Gryf Gdynia,1
 GSP,Garden Space Sailing Club,4
-HAL,Klub Żeglarski Hals Gostynin,13
+HAL,Klub Żeglarski Hals Gostynin,17
 HEA,Hear Studio Sailing Team,4
 HORN,KŻ Horn Kraków,1
-HRM,HRM Racing,16
+HRM,HRM Racing,20
 IS2,KS Iskra AMW Gdynia,4
-ISK,KS Iskra AMW Gdynia,20
+ISK,KS Iskra AMW Gdynia,24
 Inplag Sailing Sisters,,1
 JEZ,Yacht Club Jeziorak,8
 JK2,Jacht Klub Gryf Gdynia 2,2
@@ -42,75 +41,79 @@ JKM,JKM Gryf Gdynia,19
 JKW,Jachtklub Wielkopolski Poznań,9
 JMZ,JK Między Żaglami,12
 JNG,Junga Gdynia Olsztyński Klub Żeglarski,4
-JSG,Jachtklub Stoczni Gdańskiej,24
-KKZ,Kościański Klub Żeglarski,16
+JSG,Jachtklub Stoczni Gdańskiej,28
+KKZ,Kościański Klub Żeglarski,20
 KPM,Klub Port Mechelinki,1
 KSO,Klub Żeglarski Ostróda,1
 LA2,Lasery Zegrze 2,1
 LAS,RKS Lasery Zegrze,16
 LE2,Legia Warszawa 2,8
-LEG,Legia Warszawa,28
+LEG,Legia Warszawa,32
 LEGIA,Legia Warszawa,3
+MAG,,4
 MEC,Port Mechelinki,8
 MEW,Małe Elektrownie Wodne Micro Class,4
 MIC,Inex Green Micro Class,5
 MOS,MOS Ilawa,9
 MOWI Women Sailing Team,,1
 MUKZ,MUKŻ Bałtyk Mielno,4
-NAV,UKS Navigo,20
-NIE,KS Marina Niesulice,16
-NSO,Nowy Sztynort Osada Wolności Giżycka Grupa Regatowa,8
+NAV,UKS Navigo,24
+NIE,KS Marina Niesulice,20
+NSO,Nowy Sztynort Osada Wolności Giżycka Grupa Regatowa,12
 NSZ,Jachtklub Nowy Sztynort,4
 OC2,Ocean Challenge Ladies Sailing Team 2,1
 OCC,Ocean Challenge Yacht Club,16
 OD2,Odyssey Sailing Club,4
 ODY,Odyssey Sailing Club,28
-OKZ,Olsztyński Klub Żeglarski,24
-OKŻ,Olsztyński Klub Żeglarski,4
-ONB,Onboard,8
+OGR,,4
+OKZ,Olsztyński Klub Żeglarski,32
+ONB,Onboard,12
 OST,Klub Żeglarski Ostróda,3
 Olsztyński Klub Żeglarski,,1
-PGR,AZS Politechnika Gdańska,24
+PGR,AZS Politechnika Gdańska,28
 PJ2,Gandalf Stowarzyszenie PPJK 2,2
 PJK,Stowarzyszenie PPJK,20
-POG,SEJK Pogoń Szczecin,28
+POG,SEJK Pogoń Szczecin,32
 POL,Polsporty Sailing,9
 POW,SKŻ Powidz,21
+PRN,,4
 R2S,R2 Sailing Team,3
 RBP,Regatta Business Poland,12
 REW,Baltic Trans Yacht Club Rewa,4
 RMR,MBSW Rainmaker Giżycko,4
-RSR,On Lemon Rockstars Racing,13
+RSR,On Lemon Rockstars Racing,17
 Regatowa Reprezentacja Szczecina,,1
 SAT,Chotomowski Klub Żeglarski Satchwell,5
-SLA,Slava Racing,13
+SLA,Slava Racing,17
 SOL,KS Puchar Soliny,3
-SPO,Sport Vita Ski&Sail,20
+SPO,Sport Vita Ski&Sail,24
 SRC,Symfonia Racing,4
-SZT,Sztorm Grupa,28
+SZT,Sztorm Grupa,32
 Sailing Factory Club / COR,,1
 Sunloox Sailing Team USA / COR,,1
+TBD,,4
+TXT,,4
 TZR,DTP PMT TŻR Szczecin,8
 Vega Cleo Sailing Team / COR,,1
-WAT,AZS WAT Warszawa,16
-WOL,UKS Albatros Wolin,24
-WRO,UKS Żeglarz Wrocław,16
+WAT,AZS WAT Warszawa,20
+WOL,UKS Albatros Wolin,28
+WRO,UKS Żeglarz Wrocław,20
 WTR,Warszawskie Towarzystwo Regatowe,5
 WTZ,Warszawskie Towarzystwo Zeglarskie,4
 YC2,Yacht Club Sopot 2,4
-YCB,Yacht Club Białołęka,12
-YCG,Yacht Club Gdańsk,27
-YCS,Yacht Club Sopot,40
+YCB,Yacht Club Białołęka,16
+YCG,Yacht Club Gdańsk,31
+YCS,Yacht Club Sopot,44
 YCS AWF,YC Sztag AWF Katowice,4
 YG2,Yacht Club Gdańsk 2,4
-YKL,Lubelskie YKP Lublin,13
-YKP,Yacht Klub Polski Gdynia,20
+YKL,Lubelskie YKP Lublin,17
+YKP,Yacht Klub Polski Gdynia,24
 YKP Szczecin,,1
 YKP Szczecin 2 / COR,,1
 YKP Warszawa / COR,,1
-YKS,YKP Szczecin,16
-YKW,YKP Warszawa,15
-YS2,Yacht Club Sopot 2,16
+YKS,YKP Szczecin,20
+YKW,YKP Warszawa,19
+YS2,Yacht Club Sopot 2,20
 YSZ,YKP Szczecin,4
 YZ2,YKP Szczecin 2,9
 ZEG,RKS Lasery Zegrze,2

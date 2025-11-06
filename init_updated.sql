@@ -72,9 +72,8 @@ CREATE TABLE liga_WynikRegatManual (
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT fk_wrm_regaty FOREIGN KEY (regaty) REFERENCES liga_Regaty(ID_Regat) ON DELETE CASCADE,
     CONSTRAINT fk_wrm_klub   FOREIGN KEY (klub)   REFERENCES liga_Kluby(Skrot)   ON DELETE CASCADE,
-    CONSTRAINT uq_wrm_regaty_klub UNIQUE (regaty, klub),
-    CONSTRAINT ck_wrm_miejsce CHECK (miejsceWRegatach >= 1)
-) ENGINE=InnoDB;
+    CONSTRAINT uq_wrm_regaty_klub UNIQUE (regaty, klub)
+);
 
 -- =========================
 -- I N D E K S Y  pomocnicze

@@ -1,0 +1,38 @@
+WITH WynikiRundy AS (
+    SELECT r.Rok, r.Liga_Poziom, m.Klub, m.miejsceWRegatach,
+           CASE WHEN m.miejsceWRegatach BETWEEN 1 AND 18 THEN (19 - m.miejsceWRegatach) ELSE 0 END AS Punkty
+    FROM liga_WynikRegatManual m
+    JOIN liga_Regaty r ON r.ID_Regat = m.regaty
+    WHERE r.Rok = 2021 AND r.Liga_Poziom = 'Ekstraklasa'
+),
+MiejscaPosortowane AS (
+    SELECT Rok, Liga_Poziom, Klub, miejsceWRegatach,
+           ROW_NUMBER() OVER (PARTITION BY Rok, Liga_Poziom, Klub ORDER BY miejsceWRegatach ASC) AS rn
+    FROM WynikiRundy
+),
+PunktySezon AS (
+    SELECT Rok, Liga_Poziom, Klub, SUM(Punkty) AS PunktySezon
+    FROM WynikiRundy
+    GROUP BY Rok, Liga_Poziom, Klub
+),
+TieBreak AS (
+    SELECT
+      p.Rok, p.Liga_Poziom, p.Klub, p.PunktySezon,
+      MIN(CASE WHEN m.rn = 1 THEN m.miejsceWRegatach END) AS best1,
+      MIN(CASE WHEN m.rn = 2 THEN m.miejsceWRegatach END) AS best2,
+      MIN(CASE WHEN m.rn = 3 THEN m.miejsceWRegatach END) AS best3,
+      MIN(CASE WHEN m.rn = 4 THEN m.miejsceWRegatach END) AS best4
+    FROM PunktySezon p
+    LEFT JOIN MiejscaPosortowane m
+      ON m.Rok = p.Rok AND m.Liga_Poziom = p.Liga_Poziom AND m.Klub = p.Klub
+    GROUP BY p.Rok, p.Liga_Poziom, p.Klub, p.PunktySezon
+),
+RankingSezon AS (
+    SELECT t.*,
+           ROW_NUMBER() OVER (
+             PARTITION BY t.Rok, t.Liga_Poziom
+             ORDER BY t.PunktySezon DESC, t.best1 ASC, t.best2 ASC, t.best3 ASC, t.best4 ASC, t.Klub ASC
+           ) AS MiejsceWSezonie
+    FROM TieBreak t
+)
+SELECT * FROM RankingSezon ORDER BY MiejsceWSezonie;
