@@ -1,0 +1,42 @@
+SELECT
+    z.ID_Zawodnika,
+    z.Imie,
+    z.Nazwisko,
+    COUNT(DISTINCT w.ID_Regat)        AS LiczbaRegat,
+    AVG(wrm.miejsceWRegatach)        AS SrednieMiejsce
+FROM liga_Wystepowanie_w_regatach w
+JOIN liga_Zawodnik z 
+      ON z.ID_Zawodnika = w.ID_Zawodnika
+JOIN liga_WynikRegatManual wrm
+      ON wrm.regaty = w.ID_Regat
+     AND wrm.klub   = w.Skrot
+-- jeśli chcesz tylko 2025:
+-- JOIN liga_Regaty r ON r.ID_Regat = w.ID_Regat
+-- WHERE r.Rok = 2025
+GROUP BY
+    z.ID_Zawodnika,
+    z.Imie,
+    z.Nazwisko
+HAVING COUNT(DISTINCT w.ID_Regat) >= 2
+ORDER BY
+    SrednieMiejsce ASC
+LIMIT 10;
+
+
+pokazanie sawika
+
+SELECT
+    r.ID_Regat,
+    r.Nazwa,
+    r.Miasto,
+    r.Numer_Rundy,
+    r.Rok,
+    wrm.miejsceWRegatach AS Miejsce
+FROM liga_Wystepowanie_w_regatach w
+JOIN liga_Regaty r 
+      ON r.ID_Regat = w.ID_Regat
+JOIN liga_WynikRegatManual wrm
+      ON wrm.regaty = w.ID_Regat
+     AND wrm.klub   = w.Skrot          -- tu tylko łączymy, nie wyświetlamy
+WHERE w.ID_Zawodnika = 56799050
+ORDER BY r.Rok DESC, r.Numer_Rundy ASC;

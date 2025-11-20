@@ -1,0 +1,189 @@
+/* GLOBALNY WRAPPER – każda tabela PLŻ wypełnia cały dostępny kontener */
+.plz-table,
+table.plz-table {
+    display: table;
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: fixed !important;   /* <-- wymusza równe kolumny */
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border-radius: 9px !important;
+    overflow: hidden !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+/* HEADERY */
+table.plz-table thead th {
+    background: #17326B !important;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 1.5 !important;
+    padding: 10px !important;
+    border: 4px solid #17326B !important;
+    border-bottom-width: 4px !important;
+    text-align: left !important;
+}
+
+/* Zaokrąglenia */
+table.plz-table thead th:first-child {
+    border-top-left-radius: 9px !important;
+}
+table.plz-table thead th:last-child {
+    border-top-right-radius: 9px !important;
+}
+
+/* Komórki */
+table.plz-table td,
+table.plz-table th {
+    border: 1px solid #e0e0e0 !important;
+    padding: 8px 10px !important;
+    height: 25px !important;
+    font-size: 14px !important;
+    color: #17326B !important;
+    text-align: left !important;
+    word-wrap: break-word !important; /* tekst nie wyjeżdża poza komórki */
+}
+
+/* Naprzemienne wiersze */
+table.plz-table tbody tr:nth-child(odd) td {
+    background-color: #FFFFFF !important;
+}
+table.plz-table tbody tr:nth-child(even) td {
+    background-color: #E8E8E8 !important;
+}
+
+/* Tabelę w kontenerze wymuszamy na pełną szerokość */
+.elementor-widget-container table.plz-table {
+    width: 100% !important;
+}
+
+
+/* ostatnia kolumna w tabelach PLŻ */
+.plz-table td:last-child {
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+
+
+// Dodatkowe CSS dla medalów 
+table.plz-table.medale-zawodnika th,
+table.plz-table.medale-zawodnika td {
+    text-align: center !important;
+}
+
+/* Wartości medali pogrubione */
+table.plz-table.medale-zawodnika td:nth-child(-n+3) {
+    font-weight: 700 !important;
+}
+
+
+/* Wyśrodkowanie i pogrubienie miejsca (kolumna 4) */
+table.plz-table.podium-sezonu td:last-child {
+    text-align: center !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+}
+
+/* Wyśrodkowanie nagłówka miejsca */
+table.plz-table.podium-sezonu th:last-child {
+    text-align: center !important;
+}
+
+/* Medale — lekko większe */
+table.plz-table.podium-sezonu td:last-child {
+    font-size: 16px !important;
+}
+
+table.plz-table.podium-klubu td:last-child {
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+
+
+/* Kolumna "Miejsce w sezonie" – wyróżnienie TOP3 */
+table.plz-table.sezony-klubu td.top3-miejsce {
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
+/* Możesz też wyśrodkować nagłówek tej kolumny */
+table.plz-table.sezony-klubu th:last-child {
+    text-align: center !important;
+}
+
+.plz-club-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #17326B;
+    margin: 0 0 10px;
+}
+
+/* Linki w tabelach PLŻ */
+table.plz-table a {
+    color: #17326B !important;      /* kolor jak tekst w tabeli */
+    font-weight: 700 !important;    /* opcjonalnie – wzmocnienie */
+    text-decoration: none !important;
+}
+
+table.plz-table a:hover {
+    color: #0F1F47 !important;      /* ciemniejszy na hover */
+    text-decoration: underline !important;
+}
+
+
+
+/* Wyszukiwarka zawodników PLŻ */
+.plz-player-search {
+    position: relative;
+    max-width: 320px;
+    margin: 0 auto 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.plz-player-search input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #17326B;
+    font-size: 14px;
+    color: #17326B;
+    outline: none;
+    background: #FFFFFF;
+}
+
+.plz-player-search input[type="text"]::placeholder {
+    color: #9AA3C0;
+}
+
+/* Lista wyników */
+.plz-player-results {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    border: 1px solid #D0D4E5;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    z-index: 9999;
+    padding: 4px 0;
+    display: none; /* JS zmienia na block */
+}
+
+.plz-player-results a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #17326B;
+    font-size: 14px;
+}
+
+.plz-player-results a:hover {
+    background: #F2F4FF;
+}
+
+

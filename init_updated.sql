@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS liga_Wystepowanie_w_regatach (
 );
 
 CREATE TABLE IF NOT EXISTS liga_Miejsca (
-    ID_miejsca INT PRIMARY KEY,
+    ID_miejsca INT AUTO_INCREMENT PRIMARY KEY,
     ID_wyscigu INT,
     Skrot VARCHAR(10),
     Zajete_miejsce DECIMAL(5,2),
@@ -64,6 +64,8 @@ CREATE TABLE IF NOT EXISTS liga_Miejsca (
 
 
 DROP TABLE IF EXISTS liga_WynikRegatManual;
+
+
 CREATE TABLE liga_WynikRegatManual (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     regaty INT NOT NULL,

@@ -23,6 +23,10 @@ ID_Regat,Nazwa,Liga_Poziom,Miasto,Numer_Rundy,Rok
 8389469,1 Liga - Runda 2,1 Liga,Sopot,2,2024
 16432618,1 Liga - Runda 3,1 Liga,Gdynia,3,2024
 19492707,1 Liga - Runda 4,1 Liga,Szczecin,4,2024
+69259421,1 Liga - Runda 1,1 Liga,Sopot,1,2025
+87373489,1 Liga - Runda 2,1 Liga,Gdynia,2,2025
+16117658,1 Liga - Runda 3,1 Liga,Puck,3,2025
+79701472,1 Liga - Runda 4,1 Liga,Szczecin,4,2025
 65285653,2 Liga - Runda 1,2 Liga,Sopot (1),1,2022
 51774063,2 Liga - Runda 2,2 Liga,Sopot (2),2,2022
 72731202,2 Liga - Runda 3,2 Liga,Szczecin (1),3,2022
@@ -71,3 +75,7 @@ ID_Regat,Nazwa,Liga_Poziom,Miasto,Numer_Rundy,Rok
 70902597,Ekstraklasa - Runda 2,Ekstraklasa,Sopot,2,2024
 94367801,Ekstraklasa - Runda 3,Ekstraklasa,Gdynia,3,2024
 74940339,Ekstraklasa - Runda 4,Ekstraklasa,Szczecin,4,2024
+133713,Ekstraklasa - Runda 1,Ekstraklasa,Sopot,1,2025
+14732889,Ekstraklasa - Runda 2,Ekstraklasa,Gdynia,2,2025
+72158401,Ekstraklasa - Runda 3,Ekstraklasa,Puck,3,2025
+66750266,Ekstraklasa - Runda 4,Ekstraklasa,Szczecin,4,2025

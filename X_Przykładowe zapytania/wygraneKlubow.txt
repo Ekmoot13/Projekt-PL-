@@ -1,0 +1,107 @@
+SQL – Top 10 klubów z największą liczbą zwycięstw w wyścigach
+
+SELECT 
+    m.Skrot AS Klub,
+    COUNT(*) AS LiczbaWygranychWyscigow
+FROM liga_Miejsca m
+WHERE m.Zajete_miejsce = 1
+GROUP BY m.Skrot
+ORDER BY LiczbaWygranychWyscigow DESC
+LIMIT 10;
+
+
+SQL — Top 10 klubów z największą liczbą zwycięstw w wyścigach w 2025
+
+SELECT 
+    m.Skrot AS Klub,
+    COUNT(*) AS LiczbaWygranychWyscigow
+FROM liga_Miejsca m
+JOIN liga_Wyscigi w  ON w.ID_wyscigu = m.ID_wyscigu
+JOIN liga_Regaty r   ON r.ID_Regat = w.ID_Regat
+WHERE m.Zajete_miejsce = 1
+  AND r.Rok = 2025
+GROUP BY m.Skrot
+ORDER BY LiczbaWygranychWyscigow DESC
+LIMIT 10;
+
+
+Dodanie poziomów lig 
+
+WITH WygraneKluby AS (
+    SELECT 
+        r.Liga_Poziom,
+        m.Skrot AS Klub,
+        COUNT(*) AS LiczbaWygranychWyscigow
+    FROM liga_Miejsca m
+    JOIN liga_Wyscigi w  ON w.ID_wyscigu = m.ID_wyscigu
+    JOIN liga_Regaty r   ON r.ID_Regat    = w.ID_Regat
+    WHERE m.Zajete_miejsce = 1
+      AND r.Rok = 2025
+    GROUP BY r.Liga_Poziom, m.Skrot
+),
+Ranking AS (
+    SELECT
+        Liga_Poziom,
+        Klub,
+        LiczbaWygranychWyscigow,
+        ROW_NUMBER() OVER (
+            PARTITION BY Liga_Poziom
+            ORDER BY LiczbaWygranychWyscigow DESC
+        ) AS rn
+    FROM WygraneKluby
+)
+SELECT
+    Liga_Poziom,
+    Klub,
+    LiczbaWygranychWyscigow
+FROM Ranking
+WHERE rn <= 10
+ORDER BY Liga_Poziom, LiczbaWygranychWyscigow DESC;
+
+
+Dodanie ilości rozegranych wyścigów 
+
+WITH WygraneKluby AS (
+    SELECT 
+        r.Liga_Poziom,
+        m.Skrot AS Klub,
+        COUNT(*) AS LiczbaWygranychWyscigow
+    FROM liga_Miejsca m
+    JOIN liga_Wyscigi w  ON w.ID_wyscigu = m.ID_wyscigu
+    JOIN liga_Regaty r   ON r.ID_Regat    = w.ID_Regat
+    WHERE m.Zajete_miejsce = 1
+      AND r.Rok = 2025
+    GROUP BY r.Liga_Poziom, m.Skrot
+),
+Ranking AS (
+    SELECT
+        Liga_Poziom,
+        Klub,
+        LiczbaWygranychWyscigow,
+        ROW_NUMBER() OVER (
+            PARTITION BY Liga_Poziom
+            ORDER BY LiczbaWygranychWyscigow DESC
+        ) AS rn
+    FROM WygraneKluby
+),
+WyscigiLigi AS (
+    SELECT
+        r.Liga_Poziom,
+        COUNT(DISTINCT w.ID_wyscigu) AS LiczbaWyscigowWLidze
+    FROM liga_Wyscigi w
+    JOIN liga_Regaty r ON r.ID_Regat = w.ID_Regat
+    WHERE r.Rok = 2025
+    GROUP BY r.Liga_Poziom
+)
+SELECT
+    rk.Liga_Poziom,
+    rk.Klub,
+    rk.LiczbaWygranychWyscigow,
+    wl.LiczbaWyscigowWLidze
+FROM Ranking rk
+JOIN WyscigiLigi wl 
+      ON wl.Liga_Poziom = rk.Liga_Poziom
+WHERE rk.rn <= 10
+ORDER BY rk.Liga_Poziom, rk.LiczbaWygranychWyscigow DESC;
+
+

@@ -1,0 +1,435 @@
+﻿ID_wystepowania,ID_Zawodnika,ID_Regat,Skrot,WynikWRegatach,Poziom_Ligi,Rok,Runda,Regaty_wybrane,Zawodnik
+31956845,24283626,1584594,YCS,,Ekstraklasa,2015,4,Sopot,Paweł Górski
+55747467,56799050,1584594,YCS,,Ekstraklasa,2015,4,Sopot,Rafał Sawicki
+50349620,69935946,1584594,JKM,,Ekstraklasa,2015,4,Sopot,Wiktor Plitko
+9362454,24283626,42322105,YCS,5,Ekstraklasa,2015,2,Świnoujście,Paweł Górski
+94428566,56799050,42322105,YCS,5,Ekstraklasa,2015,2,Świnoujście,Rafał Sawicki
+56937840,69935946,42322105,JKM,,Ekstraklasa,2015,2,Świnoujście,Wiktor Plitko
+51347262,18443374,42322105,YKS,1,Ekstraklasa,2015,2,Świnoujście,Maciej Cylupa
+53788236,24283626,73972099,YCS,2,Ekstraklasa,2015,3,Gdańsk,Paweł Górski
+89657293,56799050,73972099,YCS,2,Ekstraklasa,2015,3,Gdańsk,Rafał Sawicki
+99835596,69935946,73972099,JKM,,Ekstraklasa,2015,3,Gdańsk,Wiktor Plitko
+20040893,24283626,77100366,YCS,3,Ekstraklasa,2015,1,Szczecin,Paweł Górski
+85312672,56799050,77100366,YCS,3,Ekstraklasa,2015,1,Szczecin,Rafał Sawicki
+3925925,69935946,77100366,JKM,,Ekstraklasa,2015,1,Szczecin,Wiktor Plitko
+25483015,18443374,77100366,YKS,4,Ekstraklasa,2015,1,Szczecin,Maciej Cylupa
+38974377,96789971,34786669,DZY,8,Ekstraklasa,2016,2,Świnoujście,Maciek Garniewski
+53535913,11120520,34786669,PGR,7,Ekstraklasa,2016,2,Świnoujście,Kacper Olszewski
+90819862,9574951,34786669,SZT,4,Ekstraklasa,2016,2,Świnoujście,Szymon Jabłkowski
+39325944,69935946,34786669,JKM,,Ekstraklasa,2016,2,Świnoujście,Wiktor Plitko
+71977773,96789971,46476906,DZY,4,Ekstraklasa,2016,1,Szczecin,Maciek Garniewski
+77777508,11120520,46476906,PGR,7,Ekstraklasa,2016,1,Szczecin,Kacper Olszewski
+3107205,9574951,46476906,SZT,10,Ekstraklasa,2016,1,Szczecin,Szymon Jabłkowski
+64915796,69935946,46476906,JKM,,Ekstraklasa,2016,1,Szczecin,Wiktor Plitko
+20034853,96789971,59734039,DZY,,Ekstraklasa,2016,3,,Maciek Garniewski
+17047614,11120520,59734039,PGR,,Ekstraklasa,2016,3,,Kacper Olszewski
+92156023,9574951,59734039,SZT,,Ekstraklasa,2016,3,,Szymon Jabłkowski
+67340106,56799050,59734039,YCS,,Ekstraklasa,2016,3,,Rafał Sawicki
+28545800,69935946,59734039,JKM,,Ekstraklasa,2016,3,,Wiktor Plitko
+32609140,96789971,80803598,DZY,,Ekstraklasa,2016,4,,Maciek Garniewski
+94748776,71589137,80803598,RMR,,Ekstraklasa,2016,4,,Jakub Pawluk
+11154745,11120520,80803598,PGR,,Ekstraklasa,2016,4,,Kacper Olszewski
+73713754,9574951,80803598,SZT,,Ekstraklasa,2016,4,,Szymon Jabłkowski
+33445385,56799050,80803598,YCS,,Ekstraklasa,2016,4,,Rafał Sawicki
+90000722,69935946,80803598,JKM,,Ekstraklasa,2016,4,,Wiktor Plitko
+52101268,96789971,16861691,DZY,,Ekstraklasa,2017,1,Sopot,Maciek Garniewski
+75680683,71589137,16861691,LEG,,Ekstraklasa,2017,1,Sopot,Jakub Pawluk
+62966316,9574951,16861691,OKZ,11,Ekstraklasa,2017,1,Sopot,Szymon Jabłkowski
+33831707,11120520,16861691,TZR,,Ekstraklasa,2017,1,Sopot,Kacper Olszewski
+85020096,24283626,16861691,YCS,3,Ekstraklasa,2017,1,Sopot,Paweł Górski
+61660385,56799050,16861691,YCS,3,Ekstraklasa,2017,1,Sopot,Rafał Sawicki
+44963427,69935946,16861691,JKM,,Ekstraklasa,2017,1,Sopot,Wiktor Plitko
+69417018,96789971,52984811,DZY,,Ekstraklasa,2017,2,Świnoujście,Maciek Garniewski
+26142062,71589137,52984811,LEG,,Ekstraklasa,2017,2,Świnoujście,Jakub Pawluk
+8340038,9574951,52984811,OKZ,4,Ekstraklasa,2017,2,Świnoujście,Szymon Jabłkowski
+35757828,11120520,52984811,TZR,,Ekstraklasa,2017,2,Świnoujście,Kacper Olszewski
+52064932,24283626,52984811,YCS,5,Ekstraklasa,2017,2,Świnoujście,Paweł Górski
+26265663,69935946,52984811,JKM,,Ekstraklasa,2017,2,Świnoujście,Wiktor Plitko
+22750742,96789971,85326506,DZY,,Ekstraklasa,2017,4,Szczecin,Maciek Garniewski
+33974200,71589137,85326506,LEG,,Ekstraklasa,2017,4,Szczecin,Jakub Pawluk
+24317287,9574951,85326506,OKZ,2,Ekstraklasa,2017,4,Szczecin,Szymon Jabłkowski
+77299865,11120520,85326506,TZR,,Ekstraklasa,2017,4,Szczecin,Kacper Olszewski
+21945599,24283626,85326506,YCS,1,Ekstraklasa,2017,4,Szczecin,Paweł Górski
+63410396,56799050,85326506,YCS,1,Ekstraklasa,2017,4,Szczecin,Rafał Sawicki
+82915514,69935946,85326506,JKM,,Ekstraklasa,2017,4,Szczecin,Wiktor Plitko
+81208660,96789971,85657695,DZY,,Ekstraklasa,2017,3,Gdynia,Maciek Garniewski
+84993711,71589137,85657695,LEG,,Ekstraklasa,2017,3,Gdynia,Jakub Pawluk
+51662740,9574951,85657695,OKZ,3,Ekstraklasa,2017,3,Gdynia,Szymon Jabłkowski
+42484368,11120520,85657695,TZR,,Ekstraklasa,2017,3,Gdynia,Kacper Olszewski
+78516895,24283626,85657695,YCS,1,Ekstraklasa,2017,3,Gdynia,Paweł Górski
+17252582,56799050,85657695,YCS,1,Ekstraklasa,2017,3,Gdynia,Rafał Sawicki
+35825123,69935946,85657695,JKM,,Ekstraklasa,2017,3,Gdynia,Wiktor Plitko
+77551023,96789971,23503367,DZY,9,Ekstraklasa,2018,4,Sopot,Maciek Garniewski
+13248866,71589137,23503367,LEG,2,Ekstraklasa,2018,4,Sopot,Jakub Pawluk
+3235994,9574951,23503367,OKZ,1,Ekstraklasa,2018,4,Sopot,Szymon Jabłkowski
+48321193,69935946,23503367,OKZ,1,Ekstraklasa,2018,4,Sopot,Wiktor Plitko
+60077643,24283626,23503367,YCS,5,Ekstraklasa,2018,4,Sopot,Paweł Górski
+99396663,873413,23503367,YCS,5,Ekstraklasa,2018,4,Sopot,Przemek Chlebowski
+29805664,56799050,23503367,YCS,5,Ekstraklasa,2018,4,Sopot,Rafał Sawicki
+35339260,96789971,42903369,DZY,9,Ekstraklasa,2018,2,Szczecin,Maciek Garniewski
+76239429,71589137,42903369,LEG,3,Ekstraklasa,2018,2,Szczecin,Jakub Pawluk
+81567902,9574951,42903369,OKZ,4,Ekstraklasa,2018,2,Szczecin,Szymon Jabłkowski
+68837502,69935946,42903369,OKZ,4,Ekstraklasa,2018,2,Szczecin,Wiktor Plitko
+54047366,24283626,42903369,YCS,8,Ekstraklasa,2018,2,Szczecin,Paweł Górski
+50462228,96789971,76884717,DZY,5,Ekstraklasa,2018,1,Gdynia,Maciek Garniewski
+15898698,71589137,76884717,LEG,7,Ekstraklasa,2018,1,Gdynia,Jakub Pawluk
+92677390,22785032,76884717,OKZ,2,Ekstraklasa,2018,1,Gdynia,Bartosz Sadowski
+67032202,69935946,76884717,OKZ,2,Ekstraklasa,2018,1,Gdynia,Wiktor Plitko
+20299760,24283626,76884717,YCS,6,Ekstraklasa,2018,1,Gdynia,Paweł Górski
+9030509,96789971,79990660,DZY,11,Ekstraklasa,2018,3,Świnoujście,Maciek Garniewski
+39432756,21665175,79990660,JKM,,Ekstraklasa,2018,3,Świnoujście,Aleksander Michalski
+77322666,71589137,79990660,LEG,6,Ekstraklasa,2018,3,Świnoujście,Jakub Pawluk
+30607766,9574951,79990660,OKZ,1,Ekstraklasa,2018,3,Świnoujście,Szymon Jabłkowski
+6545754,69935946,79990660,OKZ,1,Ekstraklasa,2018,3,Świnoujście,Wiktor Plitko
+50179374,24283626,79990660,YCS,2,Ekstraklasa,2018,3,Świnoujście,Paweł Górski
+16451028,22785032,16400118,YCG,2,1 Liga,2019,4,Szczecin,Bartosz Sadowski
+44481887,56799050,16400118,YKP,1,1 Liga,2019,4,Szczecin,Rafał Sawicki
+9984473,22785032,39885461,YCG,1,1 Liga,2019,3,Szczecin,Bartosz Sadowski
+59552461,56799050,39885461,YKP,5,1 Liga,2019,3,Szczecin,Rafał Sawicki
+20415778,22785032,90193164,YCG,1,1 Liga,2019,2,Sopot,Bartosz Sadowski
+77099130,11120520,90193164,YCG,1,1 Liga,2019,2,Sopot,Kacper Olszewski
+3852138,56799050,90193164,YKP,3,1 Liga,2019,2,Sopot,Rafał Sawicki
+43291121,22785032,99194464,YCG,1,1 Liga,2019,1,Sopot,Bartosz Sadowski
+86898806,11120520,99194464,YCG,1,1 Liga,2019,1,Sopot,Kacper Olszewski
+,56799050,99194464,YKP,2,1 Liga,2019,1,Sopot,Rafał Sawicki
+1167447,96789971,27131848,DZY,9,Ekstraklasa,2019,4,Szczecin,Maciek Garniewski
+27240530,75356731,27131848,JKM,7,Ekstraklasa,2019,4,Szczecin,Paweł Nawrocki
+59244021,71589137,27131848,LEG,2,Ekstraklasa,2019,4,Szczecin,Jakub Pawluk
+80758681,13647562,27131848,LEG,2,Ekstraklasa,2019,4,Szczecin,Marcin Banaszek
+29565605,21665175,27131848,OKZ,8,Ekstraklasa,2019,4,Szczecin,Aleksander Michalski
+77853246,69935946,27131848,OKZ,8,Ekstraklasa,2019,4,Szczecin,Wiktor Plitko
+42520893,24283626,27131848,YCS,12,Ekstraklasa,2019,4,Szczecin,Paweł Górski
+82332069,873413,27131848,YCS,12,Ekstraklasa,2019,4,Szczecin,Przemek Chlebowski
+1329000,96789971,40323829,DZY,6,Ekstraklasa,2019,3,Świnoujście,Maciek Garniewski
+45709900,9574951,40323829,DZY,6,Ekstraklasa,2019,3,Świnoujście,Szymon Jabłkowski
+49604909,71589137,40323829,LEG,4,Ekstraklasa,2019,3,Świnoujście,Jakub Pawluk
+36301002,13647562,40323829,LEG,4,Ekstraklasa,2019,3,Świnoujście,Marcin Banaszek
+3328139,21665175,40323829,OKZ,5,Ekstraklasa,2019,3,Świnoujście,Aleksander Michalski
+57461634,69935946,40323829,OKZ,5,Ekstraklasa,2019,3,Świnoujście,Wiktor Plitko
+17171319,24283626,40323829,YCS,11,Ekstraklasa,2019,3,Świnoujście,Paweł Górski
+5888938,873413,40323829,YCS,11,Ekstraklasa,2019,3,Świnoujście,Przemek Chlebowski
+54228907,96789971,56840754,DZY,8,Ekstraklasa,2019,1,Sopot,Maciek Garniewski
+91470359,71589137,56840754,LEG,2,Ekstraklasa,2019,1,Sopot,Jakub Pawluk
+57575919,13647562,56840754,LEG,2,Ekstraklasa,2019,1,Sopot,Marcin Banaszek
+16465453,21665175,56840754,OKZ,1,Ekstraklasa,2019,1,Sopot,Aleksander Michalski
+57026645,69935946,56840754,OKZ,1,Ekstraklasa,2019,1,Sopot,Wiktor Plitko
+42122832,24283626,56840754,YCS,9,Ekstraklasa,2019,1,Sopot,Paweł Górski
+91717993,873413,56840754,YCS,9,Ekstraklasa,2019,1,Sopot,Przemek Chlebowski
+93074958,56799050,56840754,YKP,,Ekstraklasa,2019,1,Sopot (EX i 1L),Rafał Sawicki
+5484830,96789971,81519758,DZY,10,Ekstraklasa,2019,2,Gdynia,Maciek Garniewski
+49711745,71589137,81519758,LEG,4,Ekstraklasa,2019,2,Gdynia,Jakub Pawluk
+4562773,13647562,81519758,LEG,4,Ekstraklasa,2019,2,Gdynia,Marcin Banaszek
+72611655,21665175,81519758,OKZ,7,Ekstraklasa,2019,2,Gdynia,Aleksander Michalski
+3123252,69935946,81519758,OKZ,7,Ekstraklasa,2019,2,Gdynia,Wiktor Plitko
+33067551,24283626,81519758,YCS,11,Ekstraklasa,2019,2,Gdynia,Paweł Górski
+18283368,873413,81519758,YCS,11,Ekstraklasa,2019,2,Gdynia,Przemek Chlebowski
+16223452,24449860,11173302,SPO,6,1 Liga,2020,3,Szczecin,Mateusz Kaczmarowski
+9205563,22785032,56595466,PGR,10,1 Liga,2020,4,Szczecin,Bartosz Sadowski
+37481209,67917096,56595466,PGR,10,1 Liga,2020,4,Szczecin,Paweł Leksycki
+93061889,24449860,56595466,SPO,6,1 Liga,2020,4,Szczecin,Mateusz Kaczmarowski
+21764213,37577452,61637084,PGR,7,1 Liga,2020,2,Sopot,Kajetan Januszewski
+47893888,24449860,61637084,SPO,1,1 Liga,2020,2,Sopot,Mateusz Kaczmarowski
+36086519,24449860,96787646,SPO,3,1 Liga,2020,1,Sopot,Mateusz Kaczmarowski
+36162185,96789971,11291612,DZY,9,Ekstraklasa,2020,2,Sopot,Maciek Garniewski
+51724282,75356731,11291612,JKM,,Ekstraklasa,2020,2,Sopot (EX i 1L),Paweł Nawrocki
+58868811,71589137,11291612,LEG,5,Ekstraklasa,2020,2,Sopot,Jakub Pawluk
+80903655,13647562,11291612,LEG,5,Ekstraklasa,2020,2,Sopot,Marcin Banaszek
+59377195,21665175,11291612,OKZ,4,Ekstraklasa,2020,2,Sopot,Aleksander Michalski
+3241667,69935946,11291612,OKZ,4,Ekstraklasa,2020,2,Sopot,Wiktor Plitko
+96153101,15603428,11291612,YCG,2,Ekstraklasa,2020,2,Sopot,Krzysztof Małecki
+26708163,24283626,11291612,YCS,8,Ekstraklasa,2020,2,Sopot,Paweł Górski
+76229974,873413,11291612,YCS,8,Ekstraklasa,2020,2,Sopot,Przemek Chlebowski
+86436388,56799050,11291612,YKP,1,Ekstraklasa,2020,2,Sopot,Rafał Sawicki
+40567280,96789971,48680673,DZY,11,Ekstraklasa,2020,3,Sopot,Maciek Garniewski
+30368293,75356731,48680673,JKM,,Ekstraklasa,2020,3,Sopot (EX) / Szczecin (1L),Paweł Nawrocki
+51742262,71589137,48680673,LEG,9,Ekstraklasa,2020,3,Sopot,Jakub Pawluk
+1867794,13647562,48680673,LEG,9,Ekstraklasa,2020,3,Sopot,Marcin Banaszek
+26763539,69935946,48680673,OKZ,6,Ekstraklasa,2020,3,Sopot,Wiktor Plitko
+85870471,15603428,48680673,YCG,3,Ekstraklasa,2020,3,Sopot,Krzysztof Małecki
+39962592,65824952,48680673,YCS,10,Ekstraklasa,2020,3,Sopot,Jacek Puchniarz
+37854518,24283626,48680673,YCS,10,Ekstraklasa,2020,3,Sopot,Paweł Górski
+70645342,873413,48680673,YCS,10,Ekstraklasa,2020,3,Sopot,Przemek Chlebowski
+320454,56799050,48680673,YKP,1,Ekstraklasa,2020,3,Sopot,Rafał Sawicki
+25132123,9574951,78707344,77R,7,Ekstraklasa,2020,4,Świnoujście,Szymon Jabłkowski
+68094747,96789971,78707344,DZY,12,Ekstraklasa,2020,4,Świnoujście,Maciek Garniewski
+65206315,75356731,78707344,JKM,,Ekstraklasa,2020,4,Świnoujście (EX) / Szczecin (1L),Paweł Nawrocki
+57686954,71589137,78707344,LEG,8,Ekstraklasa,2020,4,Świnoujście,Jakub Pawluk
+47195829,13647562,78707344,LEG,8,Ekstraklasa,2020,4,Świnoujście,Marcin Banaszek
+49116326,69935946,78707344,OKZ,10,Ekstraklasa,2020,4,Świnoujście,Wiktor Plitko
+22078143,15603428,78707344,YCG,1,Ekstraklasa,2020,4,Świnoujście,Krzysztof Małecki
+25358016,65824952,78707344,YCS,11,Ekstraklasa,2020,4,Świnoujście,Jacek Puchniarz
+59356085,24283626,78707344,YCS,11,Ekstraklasa,2020,4,Świnoujście,Paweł Górski
+81899284,873413,78707344,YCS,11,Ekstraklasa,2020,4,Świnoujście,Przemek Chlebowski
+40008262,56799050,78707344,YKP,3,Ekstraklasa,2020,4,Świnoujście,Rafał Sawicki
+59023814,96789971,79103275,DZY,10,Ekstraklasa,2020,1,Szczecin,Maciek Garniewski
+19515387,75356731,79103275,JKM,,Ekstraklasa,2020,1,Szczecin (EX) / Sopot (1L),Paweł Nawrocki
+50009170,71589137,79103275,LEG,9,Ekstraklasa,2020,1,Szczecin,Jakub Pawluk
+42591077,13647562,79103275,LEG,9,Ekstraklasa,2020,1,Szczecin,Marcin Banaszek
+18045020,21665175,79103275,OKZ,8,Ekstraklasa,2020,1,Szczecin,Aleksander Michalski
+10746783,69935946,79103275,OKZ,8,Ekstraklasa,2020,1,Szczecin,Wiktor Plitko
+252042,15603428,79103275,YCG,3,Ekstraklasa,2020,1,Szczecin,Krzysztof Małecki
+70005771,24283626,79103275,YCS,12,Ekstraklasa,2020,1,Szczecin,Paweł Górski
+82162219,873413,79103275,YCS,12,Ekstraklasa,2020,1,Szczecin,Przemek Chlebowski
+71279431,56799050,79103275,YKP,2,Ekstraklasa,2020,1,Szczecin,Rafał Sawicki
+73504173,95999433,20201142,AWF,1,1 Liga,2021,2,Gdynia,Mateusz Wiśniewski
+73285301,22785032,20201142,GRP,6,1 Liga,2021,2,Gdynia,Bartosz Sadowski
+21812145,11120520,20201142,HRM,7,1 Liga,2021,2,Gdynia,Kacper Olszewski
+1964682,79147169,20201142,KKZ,8,1 Liga,2021,2,Gdynia,Przemysław Witkowski
+59377878,95999433,68966834,AWF,2,1 Liga,2021,4,Warszawa,Mateusz Wiśniewski
+90538843,22785032,68966834,GRP,6,1 Liga,2021,4,Warszawa,Bartosz Sadowski
+58735992,95999433,79772225,AWF,5,1 Liga,2021,1,Sopot,Mateusz Wiśniewski
+59514304,22785032,79772225,GRP,11,1 Liga,2021,1,Sopot,Bartosz Sadowski
+92642242,11120520,79772225,HRM,4,1 Liga,2021,1,Sopot,Kacper Olszewski
+39503963,79147169,79772225,KKZ,10,1 Liga,2021,1,Sopot,Przemysław Witkowski
+1567903,95999433,96613811,AWF,2,1 Liga,2021,3,Szczecin,Mateusz Wiśniewski
+28561374,22785032,96613811,GRP,11,1 Liga,2021,3,Szczecin,Bartosz Sadowski
+15487923,11120520,96613811,HRM,6,1 Liga,2021,3,Szczecin,Kacper Olszewski
+48129025,15603428,7819477,GIZ,,Ekstraklasa,2021,1,Sopot,Krzysztof Małecki
+77093195,71589137,7819477,LEG,,Ekstraklasa,2021,1,Sopot,Jakub Pawluk
+35148251,13647562,7819477,LEG,,Ekstraklasa,2021,1,Sopot,Marcin Banaszek
+70807473,69935946,7819477,OKZ,,Ekstraklasa,2021,1,Sopot,Wiktor Plitko
+62769929,67917096,7819477,PGR,,Ekstraklasa,2021,1,Sopot,Paweł Leksycki
+49304497,,7819477,POG,,Ekstraklasa,2021,1,Sopot,nan
+37198599,21665175,7819477,RSR,,Ekstraklasa,2021,1,Sopot,Aleksander Michalski
+87222641,24449860,7819477,SPO,,Ekstraklasa,2021,1,Sopot,Mateusz Kaczmarowski
+16009606,75356731,7819477,YCB,,Ekstraklasa,2021,1,Sopot,Paweł Nawrocki
+78493813,65824952,7819477,YCS,,Ekstraklasa,2021,1,Sopot,Jacek Puchniarz
+67674890,24283626,7819477,YCS,,Ekstraklasa,2021,1,Sopot,Paweł Górski
+39654171,873413,7819477,YCS,,Ekstraklasa,2021,1,Sopot,Przemek Chlebowski
+68469587,56799050,7819477,YKP,,Ekstraklasa,2021,1,Sopot,Rafał Sawicki
+92545516,15603428,16116614,GIZ,7,Ekstraklasa,2021,4,Warszawa,Krzysztof Małecki
+12506066,79147169,16116614,KKZ,,Ekstraklasa,2021,4,Warszawa,Przemysław Witkowski
+9101561,71589137,16116614,LEG,2,Ekstraklasa,2021,4,Warszawa,Jakub Pawluk
+96228924,13647562,16116614,LEG,2,Ekstraklasa,2021,4,Warszawa,Marcin Banaszek
+61247955,69935946,16116614,OKZ,11,Ekstraklasa,2021,4,Warszawa,Wiktor Plitko
+23198762,67917096,16116614,PGR,8,Ekstraklasa,2021,4,Warszawa,Paweł Leksycki
+7123241,,16116614,POG,,Ekstraklasa,2021,4,Warszawa,nan
+87706691,21665175,16116614,RSR,,Ekstraklasa,2021,4,Warszawa,Aleksander Michalski
+74127879,24449860,16116614,SPO,6,Ekstraklasa,2021,4,Warszawa,Mateusz Kaczmarowski
+86901821,75356731,16116614,YCB,,Ekstraklasa,2021,4,Warszawa,Paweł Nawrocki
+52027032,65824952,16116614,YCS,18,Ekstraklasa,2021,4,Warszawa,Jacek Puchniarz
+67933002,24283626,16116614,YCS,18,Ekstraklasa,2021,4,Warszawa,Paweł Górski
+82351726,873413,16116614,YCS,18,Ekstraklasa,2021,4,Warszawa,Przemek Chlebowski
+97558461,56799050,16116614,YKP,1,Ekstraklasa,2021,4,Warszawa,Rafał Sawicki
+48763291,15603428,34461511,GIZ,7,Ekstraklasa,2021,2,Gdynia,Krzysztof Małecki
+34345692,71589137,34461511,LEG,3,Ekstraklasa,2021,2,Gdynia,Jakub Pawluk
+70429185,13647562,34461511,LEG,3,Ekstraklasa,2021,2,Gdynia,Marcin Banaszek
+79719876,69935946,34461511,OKZ,1,Ekstraklasa,2021,2,Gdynia,Wiktor Plitko
+63964769,67917096,34461511,PGR,9,Ekstraklasa,2021,2,Gdynia,Paweł Leksycki
+87998202,,34461511,POG,,Ekstraklasa,2021,2,Gdynia,nan
+95430072,21665175,34461511,RSR,,Ekstraklasa,2021,2,Gdynia,Aleksander Michalski
+7972023,24449860,34461511,SPO,11,Ekstraklasa,2021,2,Gdynia,Mateusz Kaczmarowski
+3552503,75356731,34461511,YCB,,Ekstraklasa,2021,2,Gdynia,Paweł Nawrocki
+93651374,65824952,34461511,YCS,10,Ekstraklasa,2021,2,Gdynia,Jacek Puchniarz
+65886847,24283626,34461511,YCS,10,Ekstraklasa,2021,2,Gdynia,Paweł Górski
+58121406,873413,34461511,YCS,10,Ekstraklasa,2021,2,Gdynia,Przemek Chlebowski
+88610495,56799050,34461511,YKP,4,Ekstraklasa,2021,2,Gdynia,Rafał Sawicki
+92757543,15603428,53378923,GIZ,18,Ekstraklasa,2021,3,Szczecin,Krzysztof Małecki
+50647367,79147169,53378923,KKZ,,Ekstraklasa,2021,3,Szczecin,Przemysław Witkowski
+30703157,71589137,53378923,LEG,3,Ekstraklasa,2021,3,Szczecin,Jakub Pawluk
+49135140,13647562,53378923,LEG,3,Ekstraklasa,2021,3,Szczecin,Marcin Banaszek
+2011789,69935946,53378923,OKZ,5,Ekstraklasa,2021,3,Szczecin,Wiktor Plitko
+33679674,67917096,53378923,PGR,8,Ekstraklasa,2021,3,Szczecin,Paweł Leksycki
+53013228,,53378923,POG,,Ekstraklasa,2021,3,Szczecin,nan
+8950300,21665175,53378923,RSR,,Ekstraklasa,2021,3,Szczecin,Aleksander Michalski
+44413775,24449860,53378923,SPO,12,Ekstraklasa,2021,3,Szczecin,Mateusz Kaczmarowski
+10560718,75356731,53378923,YCB,,Ekstraklasa,2021,3,Szczecin,Paweł Nawrocki
+680601,65824952,53378923,YCS,10,Ekstraklasa,2021,3,Szczecin,Jacek Puchniarz
+3137395,24283626,53378923,YCS,10,Ekstraklasa,2021,3,Szczecin,Paweł Górski
+11433634,873413,53378923,YCS,10,Ekstraklasa,2021,3,Szczecin,Przemek Chlebowski
+36551436,56799050,53378923,YKP,1,Ekstraklasa,2021,3,Szczecin,Rafał Sawicki
+37456201,22785032,31071604,GRP,8,1 Liga,2022,1,Sopot,Bartosz Sadowski
+10911755,79147169,31071604,KKZ,10,1 Liga,2022,1,Sopot,Przemysław Witkowski
+74108342,65824952,31071604,POL,7,1 Liga,2022,1,Sopot,Jacek Puchniarz
+33636876,21665175,31071604,RSR,3,1 Liga,2022,1,Sopot,Aleksander Michalski
+65797380,67917096,31071604,RSR,3,1 Liga,2022,1,Sopot,Paweł Leksycki
+12436823,73728079,31071604,YKL,1,1 Liga,2022,1,Sopot,Magdalena Kwaśna
+80422357,30063637,51626046,GRP,18,1 Liga,2022,3,Trzebież,Jakub Kupś
+60677795,79147169,51626046,KKZ,6,1 Liga,2022,3,Trzebież,Przemysław Witkowski
+79778414,9574951,51626046,OCC,12,1 Liga,2022,3,Trzebież,Szymon Jabłkowski
+90175708,65824952,51626046,POL,3,1 Liga,2022,3,Trzebież,Jacek Puchniarz
+4647516,21665175,51626046,RSR,2,1 Liga,2022,3,Trzebież,Aleksander Michalski
+14898524,67917096,51626046,RSR,2,1 Liga,2022,3,Trzebież,Paweł Leksycki
+80391391,22785032,59609769,GRP,16,1 Liga,2022,2,Gdynia,Bartosz Sadowski
+65473397,79147169,59609769,KKZ,2,1 Liga,2022,2,Gdynia,Przemysław Witkowski
+57917002,9574951,59609769,OCC,6,1 Liga,2022,2,Gdynia,Szymon Jabłkowski
+53092675,65824952,59609769,POL,5,1 Liga,2022,2,Gdynia,Jacek Puchniarz
+37103368,21665175,59609769,RSR,1,1 Liga,2022,2,Gdynia,Aleksander Michalski
+75901618,67917096,59609769,RSR,1,1 Liga,2022,2,Gdynia,Paweł Leksycki
+37683942,79147169,72870325,KKZ,10,1 Liga,2022,4,Warszawa,Przemysław Witkowski
+93302331,9574951,72870325,OCC,3,1 Liga,2022,4,Warszawa,Szymon Jabłkowski
+18834755,65824952,72870325,POL,6,1 Liga,2022,4,Warszawa,Jacek Puchniarz
+36309126,21665175,72870325,RSR,2,1 Liga,2022,4,Warszawa,Aleksander Michalski
+16273642,67917096,72870325,RSR,2,1 Liga,2022,4,Warszawa,Paweł Leksycki
+43055763,73728079,72870325,YKL,5,1 Liga,2022,4,Warszawa,Magdalena Kwaśna
+11674697,95999433,4685116,AWF,,Ekstraklasa,2022,2,Gdynia,Mateusz Wiśniewski
+72280521,56799050,4685116,BLX,,Ekstraklasa,2022,2,Gdynia,Rafał Sawicki
+98176426,96789971,4685116,DZY,,Ekstraklasa,2022,2,Gdynia,Maciek Garniewski
+54438195,15603428,4685116,GGR,,Ekstraklasa,2022,2,Gdynia,Krzysztof Małecki
+42069746,52138719,4685116,GGR,,Ekstraklasa,2022,2,Gdynia,Patryk Wojtkiewicz
+32432343,71589137,4685116,LEG,,Ekstraklasa,2022,2,Gdynia,Jakub Pawluk
+62265035,13647562,4685116,LEG,,Ekstraklasa,2022,2,Gdynia,Marcin Banaszek
+82951796,69935946,4685116,NIE,,Ekstraklasa,2022,2,Gdynia,Wiktor Plitko
+48536790,45466641,4685116,PGR,,Ekstraklasa,2022,2,Gdynia,Karolina Żurek
+59725537,62687687,4685116,PGR,,Ekstraklasa,2022,2,Gdynia,Patryk Kosmalski
+1232400,87762857,4685116,PGR,,Ekstraklasa,2022,2,Gdynia,Tomasz Lewandowski
+5114555,,4685116,POG,,Ekstraklasa,2022,2,Gdynia,nan
+44547702,24449860,4685116,SPO,,Ekstraklasa,2022,2,Gdynia,Mateusz Kaczmarowski
+89284259,75356731,4685116,YCB,,Ekstraklasa,2022,2,Gdynia,Paweł Nawrocki
+88732675,11120520,4685116,YCG,,Ekstraklasa,2022,2,Gdynia,Kacper Olszewski
+1225850,24283626,4685116,YCS,,Ekstraklasa,2022,2,Gdynia,Paweł Górski
+24845046,873413,4685116,YCS,,Ekstraklasa,2022,2,Gdynia,Przemek Chlebowski
+5045620,95999433,9923664,AWF,,Ekstraklasa,2022,3,Trzebież,Mateusz Wiśniewski
+93609846,56799050,9923664,BLX,,Ekstraklasa,2022,3,Trzebież,Rafał Sawicki
+55604878,96789971,9923664,DZY,,Ekstraklasa,2022,3,Trzebież,Maciek Garniewski
+2001291,15603428,9923664,GGR,,Ekstraklasa,2022,3,Trzebież,Krzysztof Małecki
+80468574,52138719,9923664,GGR,,Ekstraklasa,2022,3,Trzebież,Patryk Wojtkiewicz
+80608868,71589137,9923664,LEG,,Ekstraklasa,2022,3,Trzebież,Jakub Pawluk
+25338327,13647562,9923664,LEG,,Ekstraklasa,2022,3,Trzebież,Marcin Banaszek
+45889634,69935946,9923664,NIE,,Ekstraklasa,2022,3,Trzebież,Wiktor Plitko
+85764076,45466641,9923664,PGR,,Ekstraklasa,2022,3,Trzebież,Karolina Żurek
+1407101,62687687,9923664,PGR,,Ekstraklasa,2022,3,Trzebież,Patryk Kosmalski
+41268019,87762857,9923664,PGR,,Ekstraklasa,2022,3,Trzebież,Tomasz Lewandowski
+93523254,,9923664,POG,,Ekstraklasa,2022,3,Trzebież,nan
+61622408,24449860,9923664,SPO,,Ekstraklasa,2022,3,Trzebież,Mateusz Kaczmarowski
+7693041,75356731,9923664,YCB,,Ekstraklasa,2022,3,Trzebież,Paweł Nawrocki
+30514575,11120520,9923664,YCG,,Ekstraklasa,2022,3,Trzebież,Kacper Olszewski
+13928411,24283626,9923664,YCS,,Ekstraklasa,2022,3,Trzebież,Paweł Górski
+25567591,873413,9923664,YCS,,Ekstraklasa,2022,3,Trzebież,Przemek Chlebowski
+95904781,73728079,9923664,YKL,,Ekstraklasa,2022,3,Trzebież,Magdalena Kwaśna
+63756989,95999433,15498062,AWF,1,Ekstraklasa,2022,4,Warszawa,Mateusz Wiśniewski
+36107660,56799050,15498062,BLX,4,Ekstraklasa,2022,4,Warszawa,Rafał Sawicki
+10015334,96789971,15498062,DZY,,Ekstraklasa,2022,4,Warszawa,Maciek Garniewski
+33343561,,15498062,DZY,,Ekstraklasa,2022,4,Warszawa,Paweł Kuszewski
+14473620,15603428,15498062,GGR,5,Ekstraklasa,2022,4,Warszawa,Krzysztof Małecki
+506663,71589137,15498062,LEG,8,Ekstraklasa,2022,4,Warszawa,Jakub Pawluk
+7837558,13647562,15498062,LEG,8,Ekstraklasa,2022,4,Warszawa,Marcin Banaszek
+79413101,69935946,15498062,NIE,,Ekstraklasa,2022,4,Warszawa,Wiktor Plitko
+2859451,,15498062,POG,,Ekstraklasa,2022,4,Warszawa,nan
+38949166,75356731,15498062,YCB,16,Ekstraklasa,2022,4,Warszawa,Paweł Nawrocki
+5561856,11120520,15498062,YCG,17,Ekstraklasa,2022,4,Warszawa,Kacper Olszewski
+46804693,24283626,15498062,YCS,18,Ekstraklasa,2022,4,Warszawa,Paweł Górski
+92079804,873413,15498062,YCS,18,Ekstraklasa,2022,4,Warszawa,Przemek Chlebowski
+91535308,95999433,21078561,AWF,4,Ekstraklasa,2022,1,Sopot,Mateusz Wiśniewski
+32651567,56799050,21078561,BLX,1,Ekstraklasa,2022,1,Sopot,Rafał Sawicki
+9039056,96789971,21078561,DZY,,Ekstraklasa,2022,1,Sopot,Maciek Garniewski
+10741013,15603428,21078561,GGR,16,Ekstraklasa,2022,1,Sopot,Krzysztof Małecki
+26897154,52138719,21078561,GGR,16,Ekstraklasa,2022,1,Sopot,Patryk Wojtkiewicz
+8181311,71589137,21078561,LEG,3,Ekstraklasa,2022,1,Sopot,Jakub Pawluk
+4390420,13647562,21078561,LEG,3,Ekstraklasa,2022,1,Sopot,Marcin Banaszek
+17588966,69935946,21078561,NIE,,Ekstraklasa,2022,1,Sopot,Wiktor Plitko
+65705416,45466641,21078561,PGR,17,Ekstraklasa,2022,1,Sopot,Karolina Żurek
+28794658,59502195,21078561,PGR,17,Ekstraklasa,2022,1,Sopot,Maksymilian Burdziej
+78255101,,21078561,POG,,Ekstraklasa,2022,1,Sopot,nan
+84014131,24449860,21078561,SPO,14,Ekstraklasa,2022,1,Sopot,Mateusz Kaczmarowski
+42091520,75356731,21078561,YCB,13,Ekstraklasa,2022,1,Sopot,Paweł Nawrocki
+97963148,11120520,21078561,YCG,2,Ekstraklasa,2022,1,Sopot,Kacper Olszewski
+48154716,24283626,21078561,YCS,12,Ekstraklasa,2022,1,Sopot,Paweł Górski
+12870068,873413,21078561,YCS,12,Ekstraklasa,2022,1,Sopot,Przemek Chlebowski
+46354968,79147169,10285883,KKZ,4,1 Liga,2023,1,Sopot,Przemysław Witkowski
+68874082,22785032,10285883,ODY,6,1 Liga,2023,1,Sopot,Bartosz Sadowski
+1983397,24449860,10285883,SPO,3,1 Liga,2023,1,Sopot,Mateusz Kaczmarowski
+67787049,28374567,10285883,WOL,2,1 Liga,2023,1,Sopot,Jeremi Dąbrowski
+8572883,75356731,10285883,YCB,13,1 Liga,2023,1,Sopot,Paweł Nawrocki
+1682469,79147169,23242296,KKZ,10,1 Liga,2023,4,Sztynort,Przemysław Witkowski
+1078183,22785032,23242296,ODY,14,1 Liga,2023,4,Sztynort,Bartosz Sadowski
+81971522,24449860,23242296,SPO,7,1 Liga,2023,4,Sztynort,Mateusz Kaczmarowski
+13716949,28374567,23242296,WOL,2,1 Liga,2023,4,Sztynort,Jeremi Dąbrowski
+4942609,56240541,23242296,WOL,2,1 Liga,2023,4,Sztynort,Weronika Jaroszek
+7049796,75356731,23242296,YCB,12,1 Liga,2023,4,Sztynort,Paweł Nawrocki
+73451168,64982746,50632845,GAR,8,1 Liga,2023,2,Gdynia,Stanisław Konarzewski
+26477959,79147169,50632845,KKZ,5,1 Liga,2023,2,Gdynia,Przemysław Witkowski
+7727471,22785032,50632845,ODY,13,1 Liga,2023,2,Gdynia,Bartosz Sadowski
+17588049,24449860,50632845,SPO,1,1 Liga,2023,2,Gdynia,Mateusz Kaczmarowski
+9505721,28374567,50632845,WOL,4,1 Liga,2023,2,Gdynia,Jeremi Dąbrowski
+61815803,56240541,50632845,WOL,4,1 Liga,2023,2,Gdynia,Weronika Jaroszek
+98514406,75356731,50632845,YCB,2,1 Liga,2023,2,Gdynia,Paweł Nawrocki
+36613086,79147169,60773118,KKZ,5,1 Liga,2023,3,Olsztyn,Przemysław Witkowski
+30548550,22785032,60773118,ODY,17,1 Liga,2023,3,Olsztyn,Bartosz Sadowski
+96910194,24449860,60773118,SPO,2,1 Liga,2023,3,Olsztyn,Mateusz Kaczmarowski
+64156908,28374567,60773118,WOL,1,1 Liga,2023,3,Olsztyn,Jeremi Dąbrowski
+79436034,56240541,60773118,WOL,1,1 Liga,2023,3,Olsztyn,Weronika Jaroszek
+22541983,9574951,39731721,ONB,4,2 Liga,2023,4,Sztynort,Szymon Jabłkowski
+29217789,9574951,44960821,ONB,1,2 Liga,2023,3,Olsztyn,Szymon Jabłkowski
+56754113,9574951,75270731,ONB,4,2 Liga,2023,2,Gdynia,Szymon Jabłkowski
+83574282,95999433,8491828,AWF,,Ekstraklasa,2023,4,Sztynort,Mateusz Wiśniewski
+89070686,71589137,8491828,LEG,,Ekstraklasa,2023,4,Sztynort,Jakub Pawluk
+41662210,13647562,8491828,LEG,,Ekstraklasa,2023,4,Sztynort,Marcin Banaszek
+6017761,15603428,8491828,NSO,,Ekstraklasa,2023,4,Sztynort,Krzysztof Małecki
+93615250,52138719,8491828,NSO,,Ekstraklasa,2023,4,Sztynort,Patryk Wojtkiewicz
+75315511,69935946,8491828,NSO,,Ekstraklasa,2023,4,Sztynort,Wiktor Plitko
+20004088,59502195,8491828,PGR,,Ekstraklasa,2023,4,Sztynort,Maksymilian Burdziej
+92031078,,8491828,POG,,Ekstraklasa,2023,4,Sztynort,nan
+19865972,65824952,8491828,POL,,Ekstraklasa,2023,4,Sztynort,Jacek Puchniarz
+76978553,21665175,8491828,RSR,,Ekstraklasa,2023,4,Sztynort,Aleksander Michalski
+69890350,45466641,8491828,RSR,,Ekstraklasa,2023,4,Sztynort,Karolina Żurek
+71386912,67917096,8491828,RSR,,Ekstraklasa,2023,4,Sztynort,Paweł Leksycki
+77198538,11120520,8491828,YCG,,Ekstraklasa,2023,4,Sztynort,Kacper Olszewski
+89104668,43188873,8491828,YCG,,Ekstraklasa,2023,4,Sztynort,Max Pawłowski
+45058799,24283626,8491828,YCS,,Ekstraklasa,2023,4,Sztynort,Paweł Górski
+79308694,873413,8491828,YCS,,Ekstraklasa,2023,4,Sztynort,Przemek Chlebowski
+31787350,73728079,8491828,YKL,,Ekstraklasa,2023,4,Sztynort,Magdalena Kwaśna
+61642771,56799050,8491828,YKP,,Ekstraklasa,2023,4,Sztynort,Rafał Sawicki
+53142451,95999433,46597156,AWF,16,Ekstraklasa,2023,1,Sopot,Mateusz Wiśniewski
+81448168,71589137,46597156,LEG,8,Ekstraklasa,2023,1,Sopot,Jakub Pawluk
+71381566,13647562,46597156,LEG,8,Ekstraklasa,2023,1,Sopot,Marcin Banaszek
+86060618,15603428,46597156,NSO,10,Ekstraklasa,2023,1,Sopot,Krzysztof Małecki
+9761182,52138719,46597156,NSO,10,Ekstraklasa,2023,1,Sopot,Patryk Wojtkiewicz
+99539737,69935946,46597156,NSO,10,Ekstraklasa,2023,1,Sopot,Wiktor Plitko
+42797242,9574951,46597156,ONB,,Ekstraklasa,2023,1,Sopot,Szymon Jabłkowski
+10259007,59502195,46597156,PGR,15,Ekstraklasa,2023,1,Sopot,Maksymilian Burdziej
+12890327,62687687,46597156,PGR,15,Ekstraklasa,2023,1,Sopot,Patryk Kosmalski
+63475159,87762857,46597156,PGR,15,Ekstraklasa,2023,1,Sopot,Tomasz Lewandowski
+40826797,,46597156,POG,,Ekstraklasa,2023,1,Sopot,nan
+90390337,65824952,46597156,POL,17,Ekstraklasa,2023,1,Sopot,Jacek Puchniarz
+70556929,21665175,46597156,RSR,12,Ekstraklasa,2023,1,Sopot,Aleksander Michalski
+67715620,45466641,46597156,RSR,12,Ekstraklasa,2023,1,Sopot,Karolina Żurek
+90792677,67917096,46597156,RSR,12,Ekstraklasa,2023,1,Sopot,Paweł Leksycki
+53289921,56240541,46597156,WOL,,Ekstraklasa,2023,1,Sopot,Weronika Jaroszek
+83054175,11120520,46597156,YCG,2,Ekstraklasa,2023,1,Sopot,Kacper Olszewski
+59384941,43188873,46597156,YCG,2,Ekstraklasa,2023,1,Sopot,Max Pawłowski
+95439119,24283626,46597156,YCS,4,Ekstraklasa,2023,1,Sopot,Paweł Górski
+87107583,873413,46597156,YCS,4,Ekstraklasa,2023,1,Sopot,Przemek Chlebowski
+414082,73728079,46597156,YKL,1,Ekstraklasa,2023,1,Sopot,Magdalena Kwaśna
+97683148,56799050,46597156,YKP,3,Ekstraklasa,2023,1,Sopot,Rafał Sawicki
+52282393,95999433,72722761,AWF,9,Ekstraklasa,2023,3,Olsztyn,Mateusz Wiśniewski
+10193311,71589137,72722761,LEG,5,Ekstraklasa,2023,3,Olsztyn,Jakub Pawluk
+78659083,13647562,72722761,LEG,5,Ekstraklasa,2023,3,Olsztyn,Marcin Banaszek
+91308462,15603428,72722761,NSO,8,Ekstraklasa,2023,3,Olsztyn,Krzysztof Małecki
+90585727,52138719,72722761,NSO,8,Ekstraklasa,2023,3,Olsztyn,Patryk Wojtkiewicz
+49374211,69935946,72722761,NSO,8,Ekstraklasa,2023,3,Olsztyn,Wiktor Plitko
+51949726,59502195,72722761,PGR,12,Ekstraklasa,2023,3,Olsztyn,Maksymilian Burdziej
+86511757,62687687,72722761,PGR,12,Ekstraklasa,2023,3,Olsztyn,Patryk Kosmalski
+84873411,87762857,72722761,PGR,12,Ekstraklasa,2023,3,Olsztyn,Tomasz Lewandowski
+76461683,,72722761,POG,,Ekstraklasa,2023,3,Olsztyn,nan
+14964418,65824952,72722761,POL,14,Ekstraklasa,2023,3,Olsztyn,Jacek Puchniarz
+93646089,21665175,72722761,RSR,17,Ekstraklasa,2023,3,Olsztyn,Aleksander Michalski
+29729972,45466641,72722761,RSR,17,Ekstraklasa,2023,3,Olsztyn,Karolina Żurek
+38101483,67917096,72722761,RSR,17,Ekstraklasa,2023,3,Olsztyn,Paweł Leksycki
+49425260,11120520,72722761,YCG,3,Ekstraklasa,2023,3,Olsztyn,Kacper Olszewski
+58404571,43188873,72722761,YCG,3,Ekstraklasa,2023,3,Olsztyn,Max Pawłowski
+19358298,24283626,72722761,YCS,10,Ekstraklasa,2023,3,Olsztyn,Paweł Górski
+84138445,873413,72722761,YCS,10,Ekstraklasa,2023,3,Olsztyn,Przemek Chlebowski
+64850517,73728079,72722761,YKL,18,Ekstraklasa,2023,3,Olsztyn,Magdalena Kwaśna
+23399026,56799050,72722761,YKP,2,Ekstraklasa,2023,3,Olsztyn,Rafał Sawicki
+99420202,95999433,97148389,AWF,13,Ekstraklasa,2023,2,Gdynia,Mateusz Wiśniewski
+75645502,71589137,97148389,LEG,7,Ekstraklasa,2023,2,Gdynia,Jakub Pawluk
+3721023,13647562,97148389,LEG,7,Ekstraklasa,2023,2,Gdynia,Marcin Banaszek
+98132019,15603428,97148389,NSO,5,Ekstraklasa,2023,2,Gdynia,Krzysztof Małecki
+2779566,52138719,97148389,NSO,5,Ekstraklasa,2023,2,Gdynia,Patryk Wojtkiewicz
+42476638,69935946,97148389,NSO,5,Ekstraklasa,2023,2,Gdynia,Wiktor Plitko
+2051767,59502195,97148389,PGR,14,Ekstraklasa,2023,2,Gdynia,Maksymilian Burdziej
+60892876,6236001,97148389,PGR,14,Ekstraklasa,2023,2,Gdynia,Mateusz Gwóźdź
+18558910,62687687,97148389,PGR,14,Ekstraklasa,2023,2,Gdynia,Patryk Kosmalski
+9112030,87762857,97148389,PGR,14,Ekstraklasa,2023,2,Gdynia,Tomasz Lewandowski
+28773417,,97148389,POG,,Ekstraklasa,2023,2,Gdynia,nan
+33645447,65824952,97148389,POL,16,Ekstraklasa,2023,2,Gdynia,Jacek Puchniarz
+69479054,21665175,97148389,RSR,9,Ekstraklasa,2023,2,Gdynia,Aleksander Michalski
+1423026,45466641,97148389,RSR,9,Ekstraklasa,2023,2,Gdynia,Karolina Żurek
+79526542,67917096,97148389,RSR,9,Ekstraklasa,2023,2,Gdynia,Paweł Leksycki
+22291129,11120520,97148389,YCG,4,Ekstraklasa,2023,2,Gdynia,Kacper Olszewski
+58148026,43188873,97148389,YCG,4,Ekstraklasa,2023,2,Gdynia,Max Pawłowski
+84848578,24283626,97148389,YCS,6,Ekstraklasa,2023,2,Gdynia,Paweł Górski
+97582144,873413,97148389,YCS,6,Ekstraklasa,2023,2,Gdynia,Przemek Chlebowski
+80604435,73728079,97148389,YKL,11,Ekstraklasa,2023,2,Gdynia,Magdalena Kwaśna
+24822438,56799050,97148389,YKP,10,Ekstraklasa,2023,2,Gdynia,Rafał Sawicki

@@ -14,9 +14,8 @@ INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('Auto Podlasie', '') ON DUPLICATE 
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('BLX', 'Balex YKP Gdynia') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('BOL', 'Sailing Team Boleslawiec') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('BSA', 'BSA Flota Gdynia') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
-INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('DZY', 'PŻKS Dżygit Białystok') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('DZY', 'PZKS Dżygit Białystok') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('DZYGIT', 'PZKS DZYGIT') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
-INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('DŻY', 'PZKS Dżygit Białystok') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('ETI', 'Etisoft 2KMM Sailing Team') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('Energa GGR', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('FLO', 'Jacht Klub Wielkopolski Flota Online') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
@@ -53,6 +52,7 @@ INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('LAS', 'RKS Lasery Zegrze') ON DUP
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('LE2', 'Legia Warszawa 2') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('LEG', 'Legia Warszawa') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('LEGIA', 'Legia Warszawa') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('MAG', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('MEC', 'Port Mechelinki') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('MEW', 'Małe Elektrownie Wodne Micro Class') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('MIC', 'Inex Green Micro Class') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
@@ -67,8 +67,8 @@ INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('OC2', 'Ocean Challenge Ladies Sai
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('OCC', 'Ocean Challenge Yacht Club') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('OD2', 'Odyssey Sailing Club') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('ODY', 'Odyssey Sailing Club') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('OGR', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('OKZ', 'Olsztyński Klub Żeglarski') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
-INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('OKŻ', 'Olsztyński Klub Żeglarski') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('ONB', 'Onboard') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('OST', 'Klub Żeglarski Ostróda') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('Olsztyński Klub Żeglarski', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
@@ -78,6 +78,7 @@ INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('PJK', 'Stowarzyszenie PPJK') ON D
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('POG', 'SEJK Pogoń Szczecin') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('POL', 'Polsporty Sailing') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('POW', 'SKŻ Powidz') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('PRN', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('R2S', 'R2 Sailing Team') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('RBP', 'Regatta Business Poland') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('REW', 'Baltic Trans Yacht Club Rewa') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
@@ -92,6 +93,8 @@ INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('SRC', 'Symfonia Racing') ON DUPLI
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('SZT', 'Sztorm Grupa') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('Sailing Factory Club / COR', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('Sunloox Sailing Team USA / COR', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('TBD', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('TXT', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('TZR', 'DTP PMT TŻR Szczecin') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('Vega Cleo Sailing Team / COR', '') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('WAT', 'AZS WAT Warszawa') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
@@ -116,3 +119,61 @@ INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('YS2', 'Yacht Club Sopot 2') ON DU
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('YSZ', 'YKP Szczecin') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('YZ2', 'YKP Szczecin 2') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
 INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES ('ZEG', 'RKS Lasery Zegrze') ON DUPLICATE KEY UPDATE Nazwa=VALUES(Nazwa);
+-- Dopisanie brakujących / uzupełnienie nazw klubów z tabeli 2025
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('PGR', 'AZS Politechnika Gdańska')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('YCJ', 'Yacht Club Gdańsk Junior')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('AMW', 'KS Iskra AMW Gdynia')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('HRM', 'HRM Racing')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('OKZ', 'Olsztyński Klub Żeglarski')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('LAM', 'UKŻ Lamelka Kartuzy')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('YCS', 'Yacht Club Sopot')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('INP', 'Inplag Sailing Team')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('NAU', 'Nauticus Olsztyn')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('MUS', 'Politechnika Morska Szczecin')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('YCY', 'Yacht Club Gdańsk Youth')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('RRS', 'Centrum Żeglarskie Szczecin')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('MAG', 'MAG Mechelinki')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
+INSERT INTO liga_Kluby (Skrot, Nazwa) VALUES 
+('PRO', 'ProSport Caravela')
+ON DUPLICATE KEY UPDATE Nazwa = VALUES(Nazwa);
+
