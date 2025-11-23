@@ -1,25 +1,27 @@
 Skrot,Kandydat_Nazwa,Liczba
 77R,77racing Club,4
 77R,77 Racing,4
-AWF,AZS AWFiS Gdańsk,15
+AWF,AZS AWFiS Gdańsk,20
 AWF,AZS AWF Gdańsk,4
 DZY,PZKS Dżygit Białystok,8
 DZY,PŻKS Dżygit Białystok,8
 DZY,PŻKS Dźygit Białystok,4
 DZY,PŻKS DŻYGIT Białystok,4
 DZY,PZKS Dzygit Bialystok,4
-ETI,Etisoft 2KMM Sailing Team,11
+ETI,Etisoft 2KMM Sailing Team,12
 ETI,Etisoft Sailing Team Gliwice,4
 ETI,Etisoft Sailing Team,1
-GAR,KW Garland Gliwice,11
+FLO,WKS Flota Gdynia,4
+FLO,Jacht Klub Wielkopolski Flota Online,1
+GAR,KW Garland Gliwice,12
+GAR,KW Garland,8
 GAR,Miasto Gliwice KW Garland,4
-GAR,KW Garland,4
 GRP,Grupa Regatowa Powidz,8
 GRP,TFE Grupa Regatowa Powidz,4
+HAL,KŻ Hals Gostynin,8
 HAL,Klub Żeglarski Hals Gostynin,5
 HAL,Klub Żeglarski HALS Gostynin,4
-HAL,KŻ Hals Gostynin,3
-HRM,HRM Racing,11
+HRM,HRM Racing,19
 HRM,HRM Racing Yacht Club Gdańsk,4
 JEZ,Yacht Club Jeziorak,4
 JEZ,Jeziorak Yacht Club,4
@@ -33,30 +35,41 @@ JKW,Jachtklub Wielkopolski Poznań,4
 JKW,HRM Racing JKW Poznań,4
 JKW,Jacht Klub Wielkopolski Poznań,1
 JSG,Jachtklub Stoczni Gdańskiej,20
-JSG,MOWI Jachtklub Stoczni Gdańskiej,3
+JSG,MOWI Jachtklub Stoczni Gdańskiej,4
+JSG,MOWI Jacht Klub Stoczni Gdańskiej,4
 LAS,RKS Lasery Zegrze,12
 LAS,Lasery Zegrze,4
+MAG,MAG Mechelinki,6
+MAG,Yacht Club Mechelinki,1
 MOS,MOS Ilawa,4
 MOS,SailingEvent MOS Iława,3
 MOS,MOS Iława,2
-NAV,UKS Navigo,15
+NAV,UKS Navigo,20
 NAV,Interdoor UKS Navigo,4
-OCC,Ocean Challenge Yacht Club,11
+NSO,Nowy Sztynort Osada Wolności Giżycka Grupa Regatowa,8
+NSO,Nowy Sztynort Osada Wolności GGR,4
+OCC,Ocean Challenge Yacht Club,12
 OCC,Ocean Challenge Yacht Club Ladies Sailing Team,4
-OKZ,Olsztyński Klub Żeglarski,19
+OKZ,Olsztyński Klub Żeglarski,27
 OKZ,Olsztynski Klub Zeglarski,8
 PJK,Stowarzyszenie PPJK,12
-PJK,Puchar Polski Jachtów Kabinowych,7
-POG,SEJK Pogoń Szczecin,12
-POG,Pogoń Szczecin,11
+PJK,Puchar Polski Jachtów Kabinowych,8
+POG,SEJK Pogoń Szczecin,16
+POG,Pogoń Szczecin,12
 POG,SEJK Pogon Szczecin,4
-RSR,On Lemon Rockstars Racing,7
+RSR,On Lemon Rockstars Racing,12
 RSR,Rockstars Racing,5
-SZT,Sztorm Grupa,16
-SZT,Sztorm Grupa Warszawa,11
+SPO,Sport Vita Ski&Sail,20
+SPO,Sport Vita Ski & Sail,4
+SZT,Sztorm Grupa,20
+SZT,Sztorm Grupa Warszawa,12
 TZR,DTP PMT TŻR Szczecin,4
 TZR,PMT TZR Szczecin,4
-YCB,Yacht Club Białołęka,7
+WOL,UKS Albatros Wolin,26
+WOL,UKS Albatros Woiln,2
+WRO,UKS Żeglarz Wrocław,15
+WRO,FinGo Capital UKS Żeglarz Wrocław,5
+YCB,Yacht Club Białołęka,12
 YCB,Yacht Club Białołeka,4
 YKP,Yacht Klub Polski Gdynia,12
-YKP,YKP Gdynia,7
+YKP,YKP Gdynia,12

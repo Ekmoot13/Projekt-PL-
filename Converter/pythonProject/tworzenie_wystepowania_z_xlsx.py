@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-export_wystepowania_from_PLZ2025.py – wersja z kanonicznym ID_Regat
-
-Wejście: PLZ_uczestnicy_2025.xlsx
-Wyjście: wystepowanie_<liga>_2025.csv z:
-  ID_wystepowania, ID_Zawodnika, ID_Regat, Skrot, Trening
+tworzenie_wystepowania_z_xlsx.py / export_wystepowania_from_PLZ2025.py
+WERSJA: ID_Regat brane z plików _regaty.csv wygenerowanych przez main.py
 """
 
 import pandas as pd
@@ -12,10 +9,18 @@ import hashlib
 import re
 import unicodedata
 from pathlib import Path
+import os
 
+# Wejścia / wyjścia
 SRC_PLZ2025 = Path("mnt/data/występowanie/PLZ_uczestnicy_2025.xlsx")
 OUT_DIR = Path("mnt/data/output/wystepowanie/xlsx")
+CLUBS_FILE = Path("mnt/data/kluby/kluby_wyciag.csv")
+MAIN_OUTPUT_REGATY_DIR = Path("mnt/data/output/main")   # tu main.py zapisuje *_regaty.csv
 
+
+# -------------------------------
+# Helpery
+# -------------------------------
 
 def strip_accents_lower(s: str) -> str:
     if s is None:
@@ -26,32 +31,54 @@ def strip_accents_lower(s: str) -> str:
     return s.lower().strip()
 
 
-def generate_player_id_only_name(fullname: str) -> str:
+def _norm_key(s: str) -> str:
+    """Normalizacja skrótu klubu – tak samo jak w main.py / kluby.py."""
+    if s is None:
+        return ""
+    base = str(s).strip()
+    base = re.sub(r"\s+", " ", base)
+    base = base.replace(" ", "")
+    return base.upper()
+
+
+def load_club_variant_map(path: Path) -> dict:
+    """
+    Mapa: znormalizowany Skrot -> ID_wariantu_klubu
+    z pliku kluby_wyciag.csv (z kluby.py).
+    """
+    if not path.exists():
+        print(f"⚠ Nie znaleziono pliku z wariantami klubów: {path}")
+        return {}
+
+    df = pd.read_csv(path)
+    if "Skrot" not in df.columns or "ID_wariantu_klubu" not in df.columns:
+        print("⚠ kluby_wyciag.csv musi mieć kolumny: Skrot, ID_wariantu_klubu")
+        return {}
+
+    df["Skrot_norm"] = df["Skrot"].map(_norm_key)
+
+    club_map = {}
+    for _, r in df.iterrows():
+        key = r["Skrot_norm"]
+        if key not in club_map:
+            club_map[key] = int(r["ID_wariantu_klubu"])
+
+    print(f"📚 Załadowano mapę klubów: {len(club_map)} skrótów")
+    return club_map
+
+
+def generate_player_id_only_name(fullname: str) -> int:
     norm = strip_accents_lower(fullname)
     base = f"zawodnik|name_norm={norm}"
     h = hashlib.sha1(base.encode()).digest()
-    num = int.from_bytes(h[:4], "big") % 100_000_000
-    return f"{num:08d}"
-
-
-def generate_numeric_id(typ: str, liga_poziom: str, **params) -> str:
-    """
-    KANONICZNE ID jak w main.py:
-      sha1(f"{typ}|liga_poziom={liga}|k1=v1|k2=v2|...") -> 8 cyfr
-
-    Dla regat:
-      generate_numeric_id("regaty", liga_poziom, rok=rok, runda=runda)
-    """
-    param_string = f"liga_poziom={liga_poziom}|" + "|".join(
-        f"{k}={v}" for k, v in sorted(params.items())
-    )
-    base_string = f"{typ}|{param_string}"
-    h = hashlib.sha1(base_string.encode()).digest()
-    num = int.from_bytes(h[:4], "big") % 100_000_000
-    return f"{num:08d}"
+    return int.from_bytes(h[:4], "big") % 100_000_000
 
 
 def extract_tag(klub_cell: str) -> str:
+    """
+    Wyciąga skrót klubu z komórki 'Klub', np. 'Sport Vita Ski&Sail (SPO)' -> 'SPO'.
+    Jeśli nie ma nawiasu, próbuje zgadnąć ostatni wielki token.
+    """
     s = str(klub_cell or "").strip()
     m = re.search(r"\(([^)]+)\)\s*$", s)
     if m:
@@ -64,6 +91,11 @@ def extract_tag(klub_cell: str) -> str:
 
 
 def liga_from_regaty_cell(cell: str) -> str:
+    """
+    Mapuje opis z kolumny 'Regaty' na poziom ligi, starając się
+    użyć takiego samego stringa jak w kolumnie Liga_Poziom w plikach _regaty.csv.
+    W razie rozjazdu zobaczysz to w pliku brakujace_regaty.csv.
+    """
     t = str(cell or "").strip().lower()
     if "młodzież" in t or "mlodziez" in t:
         return "Youth"
@@ -73,22 +105,69 @@ def liga_from_regaty_cell(cell: str) -> str:
         return "Ekstraklasa"
     if ("1" in t and "liga" in t) or "i liga" in t:
         return "1 Liga"
+    # fallback – możesz tu dopasować do swoich nazw folderów
     return "Ekstraklasa"
 
 
-def normalize_liga_for_filename(liga: str) -> str:
-    s = str(liga or "").strip()
-    s_norm = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    s_norm = s_norm.lower()
-    s_norm = re.sub(r"[–\-]+", " ", s_norm)
-    s_norm = re.sub(r"[^a-z0-9]+", " ", s_norm)
-    s_norm = re.sub(r"\s+", "_", s_norm).strip("_")
-    return s_norm
+# -------------------------------
+# Mapa Regat z plików main.py
+# -------------------------------
 
+def load_regaty_map(regaty_dir: Path) -> pd.DataFrame:
+    """
+    Wczytuje wszystkie pliki *_regaty.csv z outputu main.py
+    i zwraca DataFrame z kolumnami:
+      ID_Regat, Liga_Poziom, Numer_Rundy, Rok
+    """
+    rows = []
+    if not regaty_dir.exists():
+        print(f"⚠ Katalog z regatami nie istnieje: {regaty_dir}")
+        return pd.DataFrame(columns=["ID_Regat", "Liga_Poziom", "Numer_Rundy", "Rok"])
+
+    for fname in os.listdir(regaty_dir):
+        if not fname.endswith("_regaty.csv"):
+            continue
+        path = regaty_dir / fname
+        try:
+            df = pd.read_csv(path)
+        except Exception as e:
+            print(f"⏭️ Pomijam {path}: {e}")
+            continue
+
+        required = {"ID_Regat", "Liga_Poziom", "Numer_Rundy", "Rok"}
+        if not required.issubset(df.columns):
+            print(f"⚠ Plik {path} nie ma wymaganych kolumn {required}, pomijam.")
+            continue
+
+        rows.append(df[["ID_Regat", "Liga_Poziom", "Numer_Rundy", "Rok"]])
+
+    if not rows:
+        print("⚠ Nie znaleziono żadnych plików *_regaty.csv.")
+        return pd.DataFrame(columns=["ID_Regat", "Liga_Poziom", "Numer_Rundy", "Rok"])
+
+    all_reg = pd.concat(rows, ignore_index=True)
+    # usuwamy duplikaty (gdyby coś się powtórzyło)
+    all_reg = all_reg.drop_duplicates(subset=["ID_Regat", "Liga_Poziom", "Numer_Rundy", "Rok"])
+    print(f"📚 Załadowano regaty: {len(all_reg)} rekordów z plików _regaty.csv")
+    return all_reg
+
+
+# -------------------------------
+# GŁÓWNY SKRYPT
+# -------------------------------
 
 def main():
-    print("🏁 Generuję pliki występowania z uczestników 2025 (kanoniczne ID_Regat)...")
+    print("🏁 Generuję występowania z PLZ_uczestnicy_2025.xlsx (ID_Regat z _regaty.csv)...")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    club_map = load_club_variant_map(CLUBS_FILE)
+    regaty_df = load_regaty_map(MAIN_OUTPUT_REGATY_DIR)
+
+    if regaty_df.empty:
+        print("❌ Brak danych regat (pliki *_regaty.csv). Przerwij i odpal najpierw main.py.")
+        return
+
+    missing_codes = set()
 
     ucz = pd.read_excel(SRC_PLZ2025)
     ucz.columns = [c.strip().lower() for c in ucz.columns]
@@ -99,58 +178,87 @@ def main():
     klub_col = "klub"
     regaty_col = "regaty"
 
+    # budujemy DataFrame wystąpień wejściowych
     wyst = pd.DataFrame({
         "Zawodnik": (ucz[imie_col].astype(str).str.strip() + " " +
                      ucz[nazw_col].astype(str).str.strip()).str.replace(r"\s+", " ", regex=True),
-        "ID_klubu": ucz[klub_col].apply(extract_tag),
+        "Skrot": ucz[klub_col].apply(extract_tag),
         "rok": 2025,
         "regaty": ucz[regaty_col].astype(str),
         "numer_rundy": pd.to_numeric(ucz[runda_col], errors="coerce").astype("Int64"),
-        "poziom_ligi": ucz[regaty_col].apply(liga_from_regaty_cell)
-    }).dropna(subset=["Zawodnik", "ID_klubu", "numer_rundy"])
+        "poziom_ligi": ucz[regaty_col].apply(liga_from_regaty_cell),
+    }).dropna(subset=["Zawodnik", "Skrot", "numer_rundy"])
 
+    # dopasowujemy ID_Regat po (Rok, Numer_Rundy, Liga_Poziom)
+    merge_left = wyst.copy()
+    merge_left["Rok"] = merge_left["rok"].astype(int)
+    merge_left["Numer_Rundy"] = merge_left["numer_rundy"].astype(int)
+    merge_left["Liga_Poziom"] = merge_left["poziom_ligi"]
+
+    merged = merge_left.merge(
+        regaty_df,
+        on=["Rok", "Numer_Rundy", "Liga_Poziom"],
+        how="left",
+        suffixes=("", "_reg")
+    )
+
+    # jeśli nie znaleziono ID_Regat – logujemy to do osobnego pliku
+    missing_reg = merged[merged["ID_Regat"].isna()][
+        ["Zawodnik", "Skrot", "rok", "numer_rundy", "poziom_ligi", "regaty"]
+    ]
+
+    if not missing_reg.empty:
+        miss_path = OUT_DIR / "wystepowanie_all_brak_regat.csv"
+        missing_reg.to_csv(miss_path, index=False, encoding="utf-8-sig")
+        print(f"⚠ {len(missing_reg)} wierszy nie dopasowało ID_Regat – zapisano do: {miss_path}")
+        print("   Sprawdź, czy 'poziom_ligi' i 'numer_rundy' zgadzają się z danymi w _regaty.csv")
+
+    # rekordy z poprawnym ID_Regat
+    ok = merged[merged["ID_Regat"].notna()].copy()
+
+    # liczymy ID_Zawodnika i ID_wariantu_klubu
     rows = []
-    for _, r in wyst.iterrows():
+    for _, r in ok.iterrows():
         full_name = str(r["Zawodnik"]).strip()
-        skrot_klubu = str(r["ID_klubu"]).strip()
-        rok = int(r["rok"])
-        poziom_ligi = str(r["poziom_ligi"]).strip()
-        runda = int(r["numer_rundy"])
+        skrot_klubu = str(r["Skrot"]).strip()
 
-        # 🔥 KANONICZNE ID_Regat – BEZ miasta:
-        id_regat = int(generate_numeric_id(
-            "regaty", poziom_ligi,
-            rok=rok, runda=runda
-        ))
-        id_zaw = int(generate_player_id_only_name(full_name))
-        id_wyst = int(generate_numeric_id(
-            "wystepowanie", poziom_ligi,
-            rok=rok, runda=runda, regaty=id_regat,
-            zawodnik=id_zaw, klub=skrot_klubu
-        ))
+        id_zaw = generate_player_id_only_name(full_name)
+        id_regat = int(r["ID_Regat"])
+
+        id_wariantu = club_map.get(_norm_key(skrot_klubu))
+        if id_wariantu is None:
+            missing_codes.add(skrot_klubu)
 
         rows.append({
             "ID_wystepowania": "",
             "ID_Zawodnika": id_zaw,
             "ID_Regat": id_regat,
-            "Skrot": skrot_klubu,
+            "ID_wariantu_klubu": id_wariantu,
             "WynikWRegatach": "",
             "Trening": "",
         })
 
     if not rows:
-        print("⚠ Brak wierszy do zapisania.")
+        print("⚠ Po odfiltrowaniu braków nie ma wierszy do zapisania.")
         return
 
     out_df = pd.DataFrame(rows)
-
-    df_save = out_df[["ID_wystepowania", "ID_Zawodnika", "ID_Regat", "Skrot", "WynikWRegatach", "Trening"]]
-
     out_path = OUT_DIR / "wystepowanie_all.csv"
-    df_save.to_csv(out_path, index=False, encoding="utf-8-sig")
+    out_df.to_csv(out_path, index=False, encoding="utf-8-sig")
 
-    print(f"✅ Zapisano jeden plik: {out_path} ({len(df_save)} rekordów)")
-    print(df_save.head(15).to_string(index=False))
+    print(f"✅ Zapisano: {out_path} ({len(out_df)} rekordów)")
+    print(out_df.head(15).to_string(index=False))
+
+    if missing_codes:
+        miss_codes_path = OUT_DIR / "wystepowanie_all_brak_wariantu_klubu.csv"
+        pd.DataFrame(sorted(missing_codes), columns=["Skrot"]).to_csv(
+            miss_codes_path, index=False, encoding="utf-8-sig"
+        )
+        print(f"⚠ Brak ID_wariantu_klubu dla skrótów: {sorted(missing_codes)}")
+        print(f"   Zapisano do: {miss_codes_path}")
+
+    print("🎉 Gotowe – ID_Regat są zgodne z danymi z main.py.")
+
 
 if __name__ == "__main__":
     main()

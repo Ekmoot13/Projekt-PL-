@@ -5,15 +5,57 @@ import re
 import numpy as np
 
 # ========================================
-#  FUNKCJE POMOCNICZE
+#  FUNKCJE POMOCNICZE – WSPÓLNE Z kluby.py
 # ========================================
 
+def _norm(s: str) -> str:
+    """Podstawowa normalizacja – przycięcie i zbicie wielu spacji w jedną."""
+    if s is None:
+        return ""
+    return re.sub(r"\s+", " ", str(s).strip())
+
+
+def _norm_key(s: str) -> str:
+    """
+    Normalizacja skrótu klubu:
+    - przycięcie,
+    - zbicie wielu spacji,
+    - USUNIĘCIE wszystkich spacji,
+    - wielkie litery.
+    Dzięki temu 'PJK', 'P J K', ' PJK ' -> 'PJK'.
+    """
+    base = _norm(s)
+    base = base.replace(" ", "")
+    return base.upper()
+
+
+def _norm_name(s: str) -> str:
+    """Normalizacja nazwy klubu – tylko porządkowanie spacji."""
+    return _norm(s)
+
+
 def generate_numeric_id(typ: str, liga_poziom: str, **params) -> str:
-    param_string = f"liga_poziom={liga_poziom}|" + "|".join(f"{k}={v}" for k, v in sorted(params.items()))
+    """
+    Kanoniczne ID: 8 cyfr z SHA1 (ta sama logika co w kluby.py).
+    """
+    param_string = f"liga_poziom={liga_poziom}|" + "|".join(
+        f"{k}={v}" for k, v in sorted(params.items())
+    )
     base_string = f"{typ}|{param_string}"
     hash_bytes = hashlib.sha1(base_string.encode()).digest()
-    numeric_id = int.from_bytes(hash_bytes[:4], byteorder='big')
+    numeric_id = int.from_bytes(hash_bytes[:4], byteorder="big")
     return f"{numeric_id % 100_000_000:08d}"
+
+
+def calc_club_variant_id(skrot_raw: str, nazwa_raw: str) -> str:
+    """
+    Jedyny sposób liczenia ID_wariantu_klubu – identyczny w main.py i kluby.py.
+    """
+    return generate_numeric_id(
+        "KLUB_WARIANT", "ALL",
+        Skrot=_norm_key(skrot_raw),
+        Nazwa=_norm_name(nazwa_raw),
+    )
 
 
 def parse_miejsce(raw_val, max_miejsce):
@@ -85,7 +127,7 @@ def znajdz_kolumne_m_sce(df: pd.DataFrame):
 # ========================================
 
 base_dir = "./mnt/data/Regaty"
-output_dir = "./mnt/data/output"
+output_dir = "./mnt/data/output/main"
 
 os.makedirs(output_dir, exist_ok=True)
 
@@ -182,6 +224,14 @@ for year_folder in os.listdir(base_dir):
                     for _, row in df.iterrows():
                         skrot = str(row[club_col]).strip()
 
+                        # nazwa klubu z pliku (jeśli jest)
+                        if "Klub" in df.columns:
+                            nazwa_klubu = row["Klub"]
+                        else:
+                            nazwa_klubu = ""
+
+                        id_wariantu = calc_club_variant_id(skrot, nazwa_klubu)
+
                         for col in race_cols:
                             idx = int(re.search(r'\d+', col).group())
                             raw_val = row[col] if col in df.columns else np.nan
@@ -196,7 +246,7 @@ for year_folder in os.listdir(base_dir):
                             miejsca.append({
                                 "ID_miejsca": "",
                                 "ID_wyscigu": id_wys,
-                                "Skrot": skrot,
+                                "ID_wariantu_klubu": id_wariantu,
                                 "Zajete_miejsce": miejsce_val,
                                 "Kary": kara,
                                 "Numer_lodki": 0
@@ -213,8 +263,9 @@ for year_folder in os.listdir(base_dir):
                             )
 
                             miejsca.append({
+                                "ID_miejsca": "",
                                 "ID_wyscigu": id_fnl,
-                                "Skrot": skrot,
+                                "ID_wariantu_klubu": id_wariantu,
                                 "Zajete_miejsce": miejsce_fnl,
                                 "Kary": kara_fnl,
                                 "Numer_lodki": 0
@@ -230,6 +281,13 @@ for year_folder in os.listdir(base_dir):
                         for _, row in df.iterrows():
                             skrot = str(row[club_col]).strip()
 
+                            if "Klub" in df.columns:
+                                nazwa_klubu = row["Klub"]
+                            else:
+                                nazwa_klubu = ""
+
+                            id_wariantu = calc_club_variant_id(skrot, nazwa_klubu)
+
                             raw_m = row[m_col]
                             if pd.isna(raw_m):
                                 continue
@@ -243,7 +301,7 @@ for year_folder in os.listdir(base_dir):
                             wynik_rows.append({
                                 "ID_wynikRegat": "",
                                 "regaty": id_regat,
-                                "klub": skrot,
+                                "ID_wariantu_klubu": id_wariantu,
                                 "miejsceWRegatach": miejsce_w_reg
                             })
 

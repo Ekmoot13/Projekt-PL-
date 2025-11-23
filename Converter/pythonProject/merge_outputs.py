@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import glob
 
-output_dir = "./mnt/data/output"
+output_dir = "./mnt/data/output/main"
 
 
 def merge_csv_files(pattern, output_file, id_column=None):
